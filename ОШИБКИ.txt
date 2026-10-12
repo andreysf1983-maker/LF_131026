@@ -1,0 +1,2293 @@
+LEGIONFORGE rev.1 2026-10-12 21:23:31 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon)
+<Ctrl-C> to stop.
+
+ __                                         ____
+/\ \                     __                /\  _`\
+\ \ \         __     __ /\_\    ___     ___\ \ \L\_\___   _ __    __      __
+ \ \ \  __  /'__`\ /'_ `\/\ \  / __`\ /' _ `\ \  _\/ __`\/\`'__\/'_ `\  /'__`\
+  \ \ \L\ \/\  __//\ \L\ \ \ \/\ \L\ \/\ \/\ \ \ \/\ \L\ \ \ \//\ \L\ \/\  __/
+   \ \____/\ \____\ \____ \ \_\ \____/\ \_\ \_\ \_\ \____/\ \_\\ \____ \ \____\
+    \/___/  \/____/\/___L\ \/_/\/___/  \/_/\/_/\/_/\/___/  \/_/ \/___L\ \/____/
+                     /\____/                                      /\____/
+                     \_/__/                                       \_/__/
+                 L E G I O N   7 . 3 . 5   ( b u i l d   2 6 1 2 4 )
+                                                     https://legionforge.ru
+
+Using configuration file worldserver.conf.
+Using SSL version: OpenSSL 3.5.9 29 Sep 2026 (library: OpenSSL 3.5.9 29 Sep 2026)
+Using Boost version: 1.86.0
+Updating Auth database...
+>> Auth database is up-to-date! Containing 0 new and 0 archived updates.
+Updating Character database...
+>> Character database is up-to-date! Containing 0 new and 0 archived updates.
+Updating World database...
+>> World database is up-to-date! Containing 0 new and 0 archived updates.
+Updating Hotfixes database...
+>> Hotfixes database is up-to-date! Containing 0 new and 0 archived updates.
+Realm running as realm ID 1
+Using World DB: ADB 735.00
+Using enUS DBC Locale
+Will clear `logs` table of entries older than 1209600 seconds every 10 minutes.
+Using DataDir ./data/
+WORLD: MMap data directory is: ./data/mmaps
+VMap support included. LineOfSight: 1, getHeight: 1, indoorCheck: 1
+VMap data directory is: ./data/vmaps
+Initialize PlayerDump...
+>> Initialized 378 PlayerDump ColumnDefinitions in 52 ms.
+Loading LegionForge strings...
+>> Loaded 1066 trinity strings in 74 ms
+Initialize data stores...
+>> Loading 240 DB2 stores from ./data/dbc/enUS/
+>> DB2 [1/240] loading Achievement.db2
+>> DB2 [2/240] loading AdventureJournal.db2
+>> DB2 [3/240] loading AnimKit.db2
+>> DB2 [4/240] loading AreaGroupMember.db2
+>> DB2 [5/240] loading AreaTable.db2
+>> DB2 [6/240] loading AreaTrigger.db2
+>> DB2 [7/240] loading ArmorLocation.db2
+>> DB2 [8/240] loading Artifact.db2
+>> DB2 [9/240] loading ArtifactAppearance.db2
+>> DB2 [10/240] loading ArtifactAppearanceSet.db2
+>> DB2 [11/240] loading ArtifactCategory.db2
+>> DB2 [12/240] loading ArtifactPower.db2
+>> DB2 [13/240] loading ArtifactPowerLink.db2
+>> DB2 [14/240] loading ArtifactPowerPicker.db2
+>> DB2 [15/240] loading ArtifactPowerRank.db2
+>> DB2 [16/240] loading ArtifactTier.db2
+>> DB2 [17/240] loading ArtifactUnlock.db2
+>> DB2 [18/240] loading AuctionHouse.db2
+>> DB2 [19/240] loading BankBagSlotPrices.db2
+>> DB2 [20/240] loading BannedAddons.db2
+>> DB2 [20/240] BannedAddons.db2 done in 4 ms (total 1693 ms)
+>> DB2 [21/240] loading BarberShopStyle.db2
+>> DB2 [22/240] loading BattlePetAbility.db2
+>> DB2 [23/240] loading BattlePetAbilityEffect.db2
+>> DB2 [24/240] loading BattlePetAbilityState.db2
+>> DB2 [25/240] loading BattlePetAbilityTurn.db2
+>> DB2 [26/240] loading BattlePetBreedQuality.db2
+>> DB2 [27/240] loading BattlePetBreedState.db2
+>> DB2 [28/240] loading BattlePetSpecies.db2
+>> DB2 [29/240] loading BattlePetSpeciesState.db2
+>> DB2 [30/240] loading BattlePetSpeciesXAbility.db2
+>> DB2 [31/240] loading BattlemasterList.db2
+>> DB2 [32/240] loading BroadcastText.db2
+>> DB2 [32/240] BroadcastText.db2 done in 79722 ms (total 82588 ms)
+>> DB2 [33/240] loading CharacterFacialHairStyles.db2
+>> DB2 [34/240] loading CharBaseSection.db2
+>> DB2 [35/240] loading CharSections.db2
+>> DB2 [36/240] loading CharStartOutfit.db2
+>> DB2 [37/240] loading CharTitles.db2
+>> DB2 [38/240] loading ChatChannels.db2
+>> DB2 [39/240] loading ChrClasses.db2
+>> DB2 [40/240] loading ChrClassesXPowerTypes.db2
+>> DB2 [40/240] ChrClassesXPowerTypes.db2 done in 55 ms (total 83214 ms)
+>> DB2 [41/240] loading ChrRaces.db2
+>> DB2 [42/240] loading ChrSpecialization.db2
+>> DB2 [43/240] loading CinematicCamera.db2
+>> DB2 [44/240] loading CinematicSequences.db2
+>> DB2 [45/240] loading ConversationLine.db2
+>> DB2 [46/240] loading CreatureDisplayInfo.db2
+>> DB2 [47/240] loading CreatureDisplayInfoExtra.db2
+>> DB2 [48/240] loading CreatureFamily.db2
+>> DB2 [49/240] loading CreatureModelData.db2
+>> DB2 [50/240] loading CreatureType.db2
+>> DB2 [51/240] loading Criteria.db2
+>> DB2 [52/240] loading CriteriaTree.db2
+>> DB2 [53/240] loading CurrencyTypes.db2
+>> DB2 [54/240] loading Curve.db2
+>> DB2 [55/240] loading CurvePoint.db2
+>> DB2 [56/240] loading DestructibleModelData.db2
+>> DB2 [57/240] loading Difficulty.db2
+>> DB2 [58/240] loading DungeonEncounter.db2
+>> DB2 [59/240] loading DurabilityCosts.db2
+>> DB2 [60/240] loading DurabilityQuality.db2
+>> DB2 [60/240] DurabilityQuality.db2 done in 6 ms (total 86063 ms)
+>> DB2 [61/240] loading Emotes.db2
+>> DB2 [62/240] loading EmotesText.db2
+>> DB2 [63/240] loading EmotesTextSound.db2
+>> DB2 [64/240] loading Faction.db2
+>> DB2 [65/240] loading FactionTemplate.db2
+>> DB2 [66/240] loading GameObjects.db2
+>> DB2 [67/240] loading GameObjectDisplayInfo.db2
+>> DB2 [68/240] loading GarrAbility.db2
+>> DB2 [69/240] loading GarrBuilding.db2
+>> DB2 [70/240] loading GarrBuildingPlotInst.db2
+>> DB2 [71/240] loading GarrClassSpec.db2
+>> DB2 [72/240] loading GarrFollower.db2
+>> DB2 [73/240] loading GarrFollowerXAbility.db2
+>> DB2 [74/240] loading GarrMission.db2
+>> DB2 [75/240] loading GarrPlotBuilding.db2
+>> DB2 [76/240] loading GarrPlot.db2
+>> DB2 [77/240] loading GarrPlotInstance.db2
+>> DB2 [78/240] loading GarrSiteLevel.db2
+>> DB2 [79/240] loading GarrSiteLevelPlotInst.db2
+>> DB2 [80/240] loading GemProperties.db2
+>> DB2 [80/240] GemProperties.db2 done in 85 ms (total 87968 ms)
+>> DB2 [81/240] loading GlyphBindableSpell.db2
+>> DB2 [82/240] loading GlyphProperties.db2
+>> DB2 [83/240] loading GlyphRequiredSpec.db2
+>> DB2 [84/240] loading GuildColorBackground.db2
+>> DB2 [85/240] loading GuildColorBorder.db2
+>> DB2 [86/240] loading GuildColorEmblem.db2
+>> DB2 [87/240] loading GuildPerkSpells.db2
+>> DB2 [88/240] loading Heirloom.db2
+>> DB2 [89/240] loading Holidays.db2
+>> DB2 [90/240] loading ImportPriceArmor.db2
+>> DB2 [91/240] loading ImportPriceQuality.db2
+>> DB2 [92/240] loading ImportPriceShield.db2
+>> DB2 [93/240] loading ImportPriceWeapon.db2
+>> DB2 [94/240] loading ItemAppearance.db2
+>> DB2 [95/240] loading ItemArmorQuality.db2
+>> DB2 [96/240] loading ItemArmorShield.db2
+>> DB2 [97/240] loading ItemArmorTotal.db2
+>> DB2 [98/240] loading ItemBagFamily.db2
+>> DB2 [99/240] loading ItemBonus.db2
+>> DB2 [100/240] loading ItemBonusListLevelDelta.db2
+>> DB2 [100/240] ItemBonusListLevelDelta.db2 done in 83 ms (total 89171 ms)
+>> DB2 [101/240] loading ItemBonusTreeNode.db2
+>> DB2 [102/240] loading ItemChildEquipment.db2
+>> DB2 [103/240] loading ItemClass.db2
+>> DB2 [104/240] loading ItemCurrencyCost.db2
+>> DB2 [105/240] loading ItemDamageAmmo.db2
+>> DB2 [106/240] loading ItemDamageOneHand.db2
+>> DB2 [107/240] loading ItemDamageOneHandCaster.db2
+>> DB2 [108/240] loading ItemDamageTwoHand.db2
+>> DB2 [109/240] loading ItemDamageTwoHandCaster.db2
+>> DB2 [110/240] loading ItemDisenchantLoot.db2
+>> DB2 [111/240] loading ItemEffect.db2
+>> DB2 [112/240] loading Item.db2
+>> DB2 [113/240] loading ItemExtendedCost.db2
+>> DB2 [114/240] loading ItemLevelSelector.db2
+>> DB2 [115/240] loading ItemLevelSelectorQuality.db2
+>> DB2 [116/240] loading ItemLevelSelectorQualitySet.db2
+>> DB2 [117/240] loading ItemLimitCategory.db2
+>> DB2 [118/240] loading ItemLimitCategoryCondition.db2
+>> DB2 [119/240] loading ItemModifiedAppearance.db2
+>> DB2 [120/240] loading ItemPriceBase.db2
+>> DB2 [120/240] ItemPriceBase.db2 done in 134 ms (total 91469 ms)
+>> DB2 [121/240] loading ItemRandomProperties.db2
+>> DB2 [122/240] loading ItemRandomSuffix.db2
+>> DB2 [123/240] loading ItemSearchName.db2
+>> DB2 [124/240] loading ItemSet.db2
+>> DB2 [125/240] loading ItemSetSpell.db2
+>> DB2 [126/240] loading ItemSparse.db2
+>> DB2 [126/240] ItemSparse.db2 done in 4605 ms (total 97371 ms)
+>> DB2 [127/240] loading ItemSpec.db2
+>> DB2 [128/240] loading ItemSpecOverride.db2
+>> DB2 [129/240] loading ItemUpgrade.db2
+>> DB2 [130/240] loading ItemXBonusTree.db2
+>> DB2 [131/240] loading Keychain.db2
+>> DB2 [132/240] loading LFGDungeons.db2
+>> DB2 [133/240] loading Light.db2
+>> DB2 [134/240] loading LiquidType.db2
+>> DB2 [135/240] loading Lock.db2
+>> DB2 [136/240] loading MailTemplate.db2
+>> DB2 [137/240] loading Map.db2
+>> DB2 [138/240] loading MapDifficulty.db2
+>> DB2 [139/240] loading ModifierTree.db2
+>> DB2 [140/240] loading MountCapability.db2
+>> DB2 [140/240] MountCapability.db2 done in 68 ms (total 99148 ms)
+>> DB2 [141/240] loading Mount.db2
+>> DB2 [142/240] loading MountTypeXCapability.db2
+>> DB2 [143/240] loading MountXDisplay.db2
+>> DB2 [144/240] loading Movie.db2
+>> DB2 [145/240] loading NameGen.db2
+>> DB2 [146/240] loading NamesProfanity.db2
+>> DB2 [147/240] loading NamesReserved.db2
+>> DB2 [148/240] loading NamesReservedLocale.db2
+>> DB2 [149/240] loading OverrideSpellData.db2
+>> DB2 [150/240] loading Phase.db2
+>> DB2 [151/240] loading PhaseXPhaseGroup.db2
+>> DB2 [152/240] loading PlayerCondition.db2
+>> DB2 [153/240] loading PowerDisplay.db2
+>> DB2 [154/240] loading PowerType.db2
+>> DB2 [155/240] loading PrestigeLevelInfo.db2
+>> DB2 [156/240] loading PVPDifficulty.db2
+>> DB2 [157/240] loading PVPItem.db2
+>> DB2 [158/240] loading PvpReward.db2
+>> DB2 [159/240] loading PvpTalent.db2
+>> DB2 [160/240] loading PvpTalentUnlock.db2
+>> DB2 [160/240] PvpTalentUnlock.db2 done in 3 ms (total 100985 ms)
+>> DB2 [161/240] loading QuestFactionReward.db2
+>> DB2 [162/240] loading QuestMoneyReward.db2
+>> DB2 [163/240] loading QuestPackageItem.db2
+>> DB2 [164/240] loading QuestSort.db2
+>> DB2 [165/240] loading QuestV2.db2
+>> DB2 [166/240] loading QuestV2CliTask.db2
+>> DB2 [167/240] loading QuestXP.db2
+>> DB2 [168/240] loading RandPropPoints.db2
+>> DB2 [169/240] loading RewardPack.db2
+>> DB2 [170/240] loading RewardPackXCurrencyType.db2
+>> DB2 [171/240] loading RewardPackXItem.db2
+>> DB2 [172/240] loading RulesetItemUpgrade.db2
+>> DB2 [173/240] loading SandboxScaling.db2
+>> DB2 [174/240] loading ScalingStatDistribution.db2
+>> DB2 [175/240] loading Scenario.db2
+>> DB2 [176/240] loading ScenarioStep.db2
+>> DB2 [177/240] loading SceneScript.db2
+>> DB2 [178/240] loading SceneScriptGlobalText.db2
+>> DB2 [179/240] loading SceneScriptPackage.db2
+>> DB2 [180/240] loading SceneScriptText.db2
+>> DB2 [180/240] SceneScriptText.db2 done in 937 ms (total 103337 ms)
+>> DB2 [181/240] loading SkillLine.db2
+>> DB2 [182/240] loading SkillLineAbility.db2
+>> DB2 [183/240] loading SkillRaceClassInfo.db2
+>> DB2 [184/240] loading SoundKit.db2
+>> DB2 [185/240] loading SpecializationSpells.db2
+>> DB2 [186/240] loading Spell.db2
+>> DB2 [186/240] Spell.db2 done in 1493 ms (total 105981 ms)
+>> DB2 [187/240] loading SpellAuraOptions.db2
+>> DB2 [188/240] loading SpellAuraRestrictions.db2
+>> DB2 [189/240] loading SpellCastTimes.db2
+>> DB2 [190/240] loading SpellCastingRequirements.db2
+>> DB2 [191/240] loading SpellCategories.db2
+>> DB2 [192/240] loading SpellCategory.db2
+>> DB2 [193/240] loading SpellClassOptions.db2
+>> DB2 [194/240] loading SpellCooldowns.db2
+>> DB2 [195/240] loading SpellDuration.db2
+>> DB2 [196/240] loading SpellEffect.db2
+>> DB2 [196/240] SpellEffect.db2 done in 2486 ms (total 109721 ms)
+>> DB2 [197/240] loading SpellEquippedItems.db2
+>> DB2 [198/240] loading SpellFocusObject.db2
+>> DB2 [199/240] loading SpellInterrupts.db2
+>> DB2 [200/240] loading SpellItemEnchantment.db2
+>> DB2 [200/240] SpellItemEnchantment.db2 done in 165 ms (total 110264 ms)
+>> DB2 [201/240] loading SpellItemEnchantmentCondition.db2
+>> DB2 [202/240] loading SpellLearnSpell.db2
+>> DB2 [203/240] loading SpellLevels.db2
+>> DB2 [204/240] loading SpellMisc.db2
+>> DB2 [205/240] loading SpellPower.db2
+>> DB2 [206/240] loading SpellPowerDifficulty.db2
+>> DB2 [207/240] loading SpellProcsPerMinute.db2
+>> DB2 [208/240] loading SpellProcsPerMinuteMod.db2
+>> DB2 [209/240] loading SpellRadius.db2
+>> DB2 [210/240] loading SpellRange.db2
+>> DB2 [211/240] loading SpellReagents.db2
+>> DB2 [212/240] loading SpellScaling.db2
+>> DB2 [213/240] loading SpellShapeshift.db2
+>> DB2 [214/240] loading SpellShapeshiftForm.db2
+>> DB2 [215/240] loading SpellTargetRestrictions.db2
+>> DB2 [216/240] loading SpellTotems.db2
+>> DB2 [217/240] loading SpellXSpellVisual.db2
+>> DB2 [218/240] loading SummonProperties.db2
+>> DB2 [219/240] loading TactKey.db2
+>> DB2 [220/240] loading Talent.db2
+>> DB2 [220/240] Talent.db2 done in 132 ms (total 113186 ms)
+>> DB2 [221/240] loading TaxiNodes.db2
+>> DB2 [222/240] loading TaxiPath.db2
+>> DB2 [223/240] loading TaxiPathNode.db2
+>> DB2 [224/240] loading TotemCategory.db2
+>> DB2 [225/240] loading Toy.db2
+>> DB2 [226/240] loading TransmogHoliday.db2
+>> DB2 [227/240] loading TransmogSet.db2
+>> DB2 [228/240] loading TransmogSetGroup.db2
+>> DB2 [229/240] loading TransmogSetItem.db2
+>> DB2 [230/240] loading TransportAnimation.db2
+>> DB2 [231/240] loading TransportRotation.db2
+>> DB2 [232/240] loading UnitPowerBar.db2
+>> DB2 [233/240] loading Vehicle.db2
+>> DB2 [234/240] loading VehicleSeat.db2
+>> DB2 [235/240] loading WMOAreaTable.db2
+>> DB2 [236/240] loading WorldEffect.db2
+>> DB2 [237/240] loading WorldMapArea.db2
+>> DB2 [238/240] loading WorldMapOverlay.db2
+>> DB2 [239/240] loading WorldMapTransforms.db2
+>> DB2 [240/240] loading WorldSafeLocs.db2
+>> DB2 [240/240] WorldSafeLocs.db2 done in 146 ms (total 116728 ms)
+>> Initialized 240 DB2 data stores in 116885 ms
+>> Loaded 187 hotfix records in 17 ms
+>> Loading Cinematic Camera files
+>> Loaded 34 cinematic waypoint sets in 137 ms
+>> Initialized 27 GameTables in 527 ms
+Loading playerbot accounts...
+>> LoadPlayerBot Find 0 characters!
+>> Loaded 50 Player bot account base info in 3 ms
+Loading SpellInfo store...
+SpellEffect record 16: invalid SpellID 305010 - effect skipped.
+>> Validated 50000 SpellEffect records (38 ms elapsed)
+>> Validated 100000 SpellEffect records (83 ms elapsed)
+>> Validated 150000 SpellEffect records (122 ms elapsed)
+>> Validated 200000 SpellEffect records (177 ms elapsed)
+>> Validated 250000 SpellEffect records (216 ms elapsed)
+SpellEffect record 400100: invalid SpellID 304000 - effect skipped.
+SpellEffect record 400101: invalid SpellID 304001 - effect skipped.
+SpellEffect record 400102: invalid SpellID 304002 - effect skipped.
+SpellEffect record 400103: invalid SpellID 304003 - effect skipped.
+SpellEffect record 400104: invalid SpellID 304004 - effect skipped.
+SpellEffect record 400105: invalid SpellID 304005 - effect skipped.
+SpellEffect record 400106: invalid SpellID 304006 - effect skipped.
+SpellEffect record 400107: invalid SpellID 304007 - effect skipped.
+SpellEffect record 400108: invalid SpellID 304008 - effect skipped.
+SpellEffect record 400109: invalid SpellID 304009 - effect skipped.
+SpellEffect record 400110: invalid SpellID 304010 - effect skipped.
+SpellEffect record 400120: invalid SpellID 304020 - effect skipped.
+SpellEffect record 410000: invalid SpellID 305000 - effect skipped.
+SpellEffect record 410001: invalid SpellID 305001 - effect skipped.
+SpellEffect record 410002: invalid SpellID 305002 - effect skipped.
+SpellEffect record 410003: invalid SpellID 305003 - effect skipped.
+SpellEffect record 410004: invalid SpellID 305004 - effect skipped.
+SpellEffect record 410005: invalid SpellID 305005 - effect skipped.
+SpellEffect record 410006: invalid SpellID 305006 - effect skipped.
+>> Validated 300000 SpellEffect records (272 ms elapsed)
+Skipped 1609 incompatible SpellEffect records (first 20 logged). Check SpellEffect.db2 against the 26124 client and rebuild the core if effect IDs exceed its handler table.
+>> SpellInfo: 20000/283817 entries processed (625 ms elapsed)
+>> SpellInfo: 40000/283817 entries processed (707 ms elapsed)
+>> SpellInfo: 60000/283817 entries processed (824 ms elapsed)
+>> SpellInfo: 80000/283817 entries processed (935 ms elapsed)
+>> SpellInfo: 100000/283817 entries processed (1037 ms elapsed)
+>> SpellInfo: 120000/283817 entries processed (1122 ms elapsed)
+>> SpellInfo: 140000/283817 entries processed (1240 ms elapsed)
+>> SpellInfo: 160000/283817 entries processed (1367 ms elapsed)
+>> SpellInfo: 180000/283817 entries processed (1502 ms elapsed)
+>> SpellInfo: 200000/283817 entries processed (1638 ms elapsed)
+>> SpellInfo: 220000/283817 entries processed (1782 ms elapsed)
+>> SpellInfo: 240000/283817 entries processed (1927 ms elapsed)
+>> SpellInfo: 260000/283817 entries processed (2064 ms elapsed)
+>> SpellInfo: 280000/283817 entries processed (2199 ms elapsed)
+>> Loaded SpellInfo store in 2213 ms
+Loading SpellInfo corrections...
+>> Loaded SpellInfo corrections in 148 ms
+Loading SkillLineAbilityMultiMap Data...
+>> Loaded 9360 SkillLineAbility MultiMap Data in 2 ms
+Loading SpellInfo custom attributes...
+>> Loaded 96 spell custom attributes from DB in 11 ms
+>> Loaded SpellInfo custom attributes in 234 ms
+Loading SpellInfo diminishing infos...
+>> Loaded SpellInfo diminishing infos in 64 ms
+Loading SpellInfo immunity infos...
+>> Loaded SpellInfo immunity infos in 91 ms
+Loading PetFamilySpellsStore Data...
+Loading GameObject models...
+>> Loaded 9671 GameObject models in 106 ms
+Loading Script Names...
+>> Loaded 5300 ScriptNames in 8287 ms
+Loading Instance Template...
+>> Loaded 161 instance templates in 3 ms
+Loading instances...
+>> Loaded instances in 8030 ms
+Loading Localization strings...
+>> Loaded 106648 creature locale strings in 12664 ms
+>> Loaded 20376 gameobject_template_locale strings in 1827 ms
+>> Loaded 25125 Quest Template locale strings in 4907 ms
+>> Loaded 226 Quest Offer Reward locale strings in 10 ms
+>> Loaded 63 Quest Request Items locale strings in 2 ms
+>> Loaded 20229 Quest Objectives locale strings in 1364 ms
+>> Loaded 1 PageText locale strings in 20 ms
+>> Loaded 17 gossip_menu_option locale strings in 17 ms
+>> Localization strings loaded in 20816 ms
+Loading Account Roles and Permissions...
+>> Loaded 690 permission definitions, 672 linked permissions and 4 default permissions in 10 ms
+Loading Page Texts...
+>> Loaded 2317 page texts in 123 ms
+Loading Game Object Templates...
+>> Loaded 47465 game object templates in 828 ms
+Loading Game Object template addons...
+GameObject template (Entry: 280650) does not exist but has a record in `gameobject_template_addon`
+GameObject template (Entry: 235794) does not exist but has a record in `gameobject_template_addon`
+>> Loaded 44811 game object template addons in 348 ms
+Loading Transport templates...
+>> Loaded 69 transport templates in 245 ms
+Loading Transport animations and rotations...
+Loading Spell Rank Data...
+>> Loaded 865 spell rank records in 1 ms
+Loading Spell Required Data...
+>> Loaded 21 spell required records in 1 ms
+Loading Spell Group types...
+>> Loaded 272 spell group definitions in 4 ms
+Loading Spell Learn Skills...
+>> Loaded 325 Spell Learn Skills from DBC in 126 ms
+Loading SpellInfo SpellSpecific and AuraState...
+>> Loaded SpellInfo SpellSpecific and AuraState in 94 ms
+Loading Spell Learn Spells...
+>> Loaded 20 spell learn spells, 1075 found in Spell.dbc in 139 ms
+Loading Spell Proc conditions and data...
+>> Loaded 663 spell proc conditions and data in 42 ms
+Generating spell proc data from SpellMap...
+>> Generated spell proc data for 5140 spells in 29 ms
+Loading Aggro Spells Definitions...
+>> Loaded 20 SpellThreatEntries in 4 ms
+Loading Spell Group Stack Rules...
+>> Loaded 8 spell group stack rules in 1 ms
+Loading NPC Texts...
+>> Loaded 10325 npc texts in 160 ms
+Loading Enchant Spells Proc datas...
+>> Loaded 16 enchant proc data definitions in 3 ms
+Loading Item Random Enchantments Table...
+>> Loaded 34276 Item Enchantment definitions in 287 ms
+Loading Disables
+>> Loaded 5450 disables in 119 ms
+Loading Items...
+>> Loaded 104533 item templates in 2555 ms
+Loading Item set names...
+>> Loaded 625 item addon templates in 42 ms
+>> Loaded 15 item script names in 1 ms
+Loading Creature Model Based Info Data...
+>> Loaded 65421 creature model based info in 538 ms
+Loading Creature templates...
+Creature (Entry: 900100) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 29264) has non-existing Spell1 (58859), set to 0.
+Creature (Entry: 900101) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 900102) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 9500100) has invalid unit_class (0) in creature_template. Set to 1 (UNIT_CLASS_WARRIOR).
+Creature (Entry: 900103) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+>> Loaded 110533 creature definitions in 3381 ms
+Loading Equipment templates...
+>> Loaded 23678 equipment templates in 261 ms
+Loading Creature template addons...
+Creature (Entry: 42010) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 41366) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 43273) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 43279) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+>> Loaded 23885 creature template addons in 306 ms
+Loading Creature template scaling...
+>> Loaded 14163 creature template scaling data in 146 ms
+Loading Script Params...
+>> Loaded 0 script param creature definitions. DB table `script_params` is empty.
+Loading Reputation Reward Rates...
+>> Loaded 14 reputation_reward_rate in 2 ms
+Loading Creature Reputation OnKill Data...
+>> Loaded 2054 creature award reputation definitions in 70 ms
+Loading Reputation Spillover Data...
+>> Loaded 28 reputation_spillover_template in 14 ms
+Loading Points Of Interest Data...
+>> Loaded 503 Points of Interest definitions in 39 ms
+Loading Creature Base Stats...
+>> Loaded 460 creature base stats in 44 ms
+Loading Creature Data...
+Table `creature` has creature (GUID: 183746 Entry: 783) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
+Table `creature` has creature (GUID: 183806 Entry: 781) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
+>> Loaded 378946 creatures in 9417 ms
+Loading Temporary Summon Data...
+>> Loaded 1228 temp summons in 43 ms
+Loading pet levelup spells...
+>> Loaded 627 pet levelup and default spells for 79 families in 12 ms
+Loading pet default spells additional to levelup spells...
+Loading summonable creature templates...
+>> Loaded 1489 summonable creature templates in 126 ms
+Loading Creature Addon Data...
+>> Loaded 40541 creature addons in 605 ms
+Loading Gameobject Data...
+>> Loaded 157848 gameobjects in 3219 ms
+Loading GameObject Addon Data...
+>> Loaded 124986 gameobject addons in 1243 ms
+Loading GameObject Quest Items...
+>> Loaded 2042 gameobject quest items in 55 ms
+Loading Creature Quest Items...
+>> Loaded 9631 creature quest items in 117 ms
+Loading Creature Linked Respawn...
+>> Loaded 196 linked respawns in 4 ms
+Loading Weather Data...
+>> Loaded 35 weather definitions in 0 ms
+Loading Quests...
+Quest 24974 has `RewardSpellCast` = 73435 but spell 73435 does not exist, quest will not have a spell reward.
+Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 39733, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
+Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 44555, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
+>> Loaded 29007 quests definitions in 3613 ms
+Checking Quest Disables
+>> Checked 5394 quest disables in 1 ms
+Loading Quest POI
+>> Loaded 56288 quest POI definitions in 1666 ms
+Loading Quests Starters and Enders...
+Loading GO Start Quest Data...
+>> Loaded 1108 quest relations from gameobject_queststarter in 6 ms
+Loading GO End Quest Data...
+>> Loaded 1228 quest relations from gameobject_questender in 5 ms
+Loading Creature Start Quest Data...
+>> Loaded 16317 quest relations from creature_queststarter in 43 ms
+Loading Creature End Quest Data...
+>> Loaded 22991 quest relations from creature_questender in 59 ms
+Loading Quest Greetings...
+>> Loaded 2 quest_greeting in 23 ms
+Loading Objects Pooling Data...
+>> Loaded 126 objects pools in 15 ms
+Loading Creatures Pooling Data...
+>> Loaded 37 creatures in pools in 1 ms
+Loading Gameobject Pooling Data...
+>> Loaded 258 gameobject in pools in 4 ms
+Loading Mother Pooling Data...
+>> Loaded 0 pools in pools
+Loading Quest Pooling Data...
+>> Loaded 10 quests in pools in 1 ms
+Starting objects pooling system...
+Loading Game Event Data...
+>> Loaded 70 game events in 11 ms.
+Loading Game Event Saves Data...
+>> Loaded 0 game event saves in game events. DB table `game_event_save` is empty.
+Loading Game Event Prerequisite Data...
+>> Loaded 0 game event prerequisites in game events. DB table `game_event_prerequisite` is empty.
+Loading Game Event Creature Data...
+>> Loaded 12796 creatures in game events in 17 ms.
+Loading Game Event GO Data...
+>> Loaded 26532 gameobjects in game events in 33 ms.
+Loading Game Event Model/Equipment Change Data...
+>> Loaded 0 model/equipment changes in game events. DB table `game_event_model_equip` is empty.
+Loading Game Event Quest Data...
+>> Loaded 327 quests additions in game events in 13 ms.
+Loading Game Event GO Quest Data...
+>> Loaded 189 quests additions in game events in 2 ms.
+Loading Game Event Quest Condition Data...
+>> Loaded 0 quest event conditions in game events. DB table `game_event_quest_condition` is empty.
+Loading Game Event Condition Data...
+>> Loaded 0 conditions in game events. DB table `game_event_condition` is empty.
+Loading Game Event Condition Save Data...
+>> Loaded 0 condition saves in game events. DB table `game_event_condition_save` is empty.
+Loading Game Event NPCflag Data...
+>> Loaded 0 npcflags in game events. DB table `game_event_npcflag` is empty.
+Loading Game Event Seasonal Quest Relations...
+>> Loaded 690 quests additions in game events in 2 ms.
+Loading Game Event Vendor Additions Data...
+>> Loaded 2 vendor additions in game events in 1 ms.
+Loading Game Event Battleground Data...
+>> Loaded 6 battleground holidays in game events in 2 ms.
+Loading Game Event Pool Data...
+>> Loaded 0 pools for game events. DB table `game_event_pool` is empty.
+Loading UNIT_NPC_FLAG_SPELLCLICK Data...
+npc_spellclick_spells: Creature template 130758 has UNIT_NPC_FLAG_SPELLCLICK but no data in spellclick table! Removing flag
+>> Loaded 1185 spellclick definitions in 59 ms
+Loading Vehicle Template Accessories...
+>> Loaded 321 Vehicle Template Accessories in 38 ms
+Loading Vehicle Accessories...
+>> Loaded 0 Vehicle Accessories in 3 ms
+Loading SpellArea Data...
+>> Loaded 887 spell area requirements in 57 ms
+Loading AreaTrigger definitions...
+Area Trigger (GUID: 22) has a non-existing Port Loc (ID: 0) in WorldSafeLocs.dbc, skipped
+>> Loaded 372 area trigger teleport definitions in 27 ms
+Loading Access Requirements...
+>> Loaded 287 access requirement definitions in 28 ms
+Loading Quest Area Triggers...
+>> Loaded 59 quest trigger points in 6 ms
+Loading Tavern Area Triggers...
+>> Loaded 183 tavern triggers in 3 ms
+Loading AreaTrigger script names...
+AreaTrigger (ID: 2200) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 9677) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 5559) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 314) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 373) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 5555) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 2763) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 1489) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7630) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7625) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 149959) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 983) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 12802) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 3691) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7214) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 151582) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 11420) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 6022) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7455) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 11353) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 1520) does not exist in `AreaTrigger.dbc`.
+>> Loaded 254 areatrigger scripts in 19 ms
+Loading LFG entrance positions...
+>> Loaded 451 lfg dungeon templates in 62 ms
+>> LFG entrances: 451 from SQL, 171 from portal/graveyard/areatrigger fallback, 79 still missing
+table `lfg_dungeon_template` contains coordinates for 11 wrong dungeon(s): 200, 228, 229, 230, 231, 232, 233, 234, 235, 236, 358. Delete them: DELETE FROM lfg_dungeon_template WHERE dungeonId IN (200, 228, 229, 230, 231, 232, 233, 234, 235, 236, 358); (see sql/99_legionforge_error_fixes_26124.sql)
+79 dungeon(s) have no entrance for their map (first 10: Dark Iron Dwarf - Firelands (Id: 1893, map 2076); Tol Dagor (Id: 1714, map 1771); Shrine of the Storm (Id: 1774, map 1864); The Underrot (Id: 1712, map 1841); Verdant Wilds (Id: 1724, map 1882); Waycrest Manor (Id: 1706, map 1862); Tol Dagor (Id: 1778, map 1771); The Battle for Lordaeron (Id: 1758, map 1760); Atal'Dazar (Id: 1669, map 1763); The MOTHERLODE!! (Id: 1707, map 1594)). Most are BFA/test dungeons present in DB2 but not in the 7.3.5.26124 client - they are skipped by LFG and are harmless. Add an entrance via `lfg_dungeon_template`/`areatrigger_teleport` only for dungeons that must be playable.
+Loading Dungeon boss data...
+>> Loaded 394 instance encounters in 36 ms
+Loading LFG rewards...
+>> Loaded 15 lfg dungeon rewards in 3 ms
+Loading Graveyard-zone links...
+>> Loaded 1530 graveyard-zone links in 76 ms
+Loading spell pet auras...
+>> Loaded 1 spell pet auras in 4 ms
+Loading Spell target coordinates...
+>> Loaded 1935 spell teleport coordinates in 58 ms
+Loading enchant custom attributes...
+>> Loaded 3 custom enchant attributes in 8 ms
+Loading linked spells...
+The spell 108936 Effect: 108943 listed in `spell_linked_spell` has same bp0 like effect (possible hack)
+>> Loaded 369 linked spells in 5 ms
+Loading Player Create Data...
+>> Loaded 267 player create definitions in 4 ms
+Loading Player Create Items Data...
+>> Loaded 32 custom player create items in 1 ms
+Loading Player Create Skill Data...
+>> Loaded player create skills in 1 ms
+Loading Player Create Custom Spell Data...
+>> Loaded 0 player create custom spells. DB table `playercreateinfo_spell_custom` is empty.
+Loading Player Create Cast Spell Data...
+>> Loaded 1003 player create cast spells in 1 ms
+Loading Player Create Action Data...
+>> Loaded 886 player create actions in 5 ms
+Loading Player Create Level Stats Data...
+>> Loaded 29370 level stats definitions in 191 ms
+Loading Player Create XP Data...
+>> Loaded 0 xp for level definition(s) from database in 2 ms
+Loading Exploration BaseXP Data...
+>> Loaded 100 BaseXP definitions in 3 ms
+Loading Pet Name Parts...
+>> Loaded 313 pet name parts in 25 ms
+Loading AreaTrigger Templates...
+>> Loaded 0 AreaTrigger templates circular movement infos. DB table `spell_areatrigger_circular` is empty.
+>> Loaded 922 spell areatrigger templates in 115 ms.
+Loading AreaTriggers...
+Table `areatrigger` has areatrigger (GUID: 4) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1544).
+Table `areatrigger` has areatrigger (GUID: 6) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1501).
+Table `areatrigger` has areatrigger (GUID: 8) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1677).
+Table `areatrigger` has areatrigger (GUID: 10) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1571).
+Table `areatrigger` has areatrigger (GUID: 12) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1466).
+Table `areatrigger` has areatrigger (GUID: 14) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1456).
+Table `areatrigger` has areatrigger (GUID: 16) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1477).
+Table `areatrigger` has areatrigger (GUID: 18) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1492).
+Table `areatrigger` has areatrigger (GUID: 20) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1458).
+Table `areatrigger` has areatrigger (GUID: 22) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1651).
+Table `areatrigger` has areatrigger (GUID: 24) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1516).
+Table `areatrigger` has areatrigger (GUID: 26) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1493).
+Table `areatrigger` has areatrigger (GUID: 28) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1520).
+Table `areatrigger` has areatrigger (GUID: 30) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1648).
+Table `areatrigger` has areatrigger (GUID: 32) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 33) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 35) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1676).
+Table `areatrigger` has areatrigger (GUID: 45) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1466).
+Table `areatrigger` has areatrigger (GUID: 47) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1753).
+>> Loaded 23 areatrigger in 14 ms
+Loading Conversation Templates...
+>> Loaded 64 Conversation actor templates in 0 ms
+>> Loaded 549 Conversation line templates in 1 ms
+>> Loaded 191 Conversation actors in 0 ms
+>> Loaded 269 Conversation templates in 0 ms
+Loading Scenes Templates...
+>> Loaded 0 scene templates in 2 ms.
+Loading Player Choices...
+>> Loaded 1 player choices, 2 responses, 2 rewards, 0 item rewards, 0 currency rewards and 0 faction rewards in 28 ms.
+Loading Player Choices Locales...
+>> Loaded 1 Player Choice locale strings in 4 ms
+>> Loaded 2 Player Choice Response locale strings in 10 ms
+Loading the max pet number...
+>> Loaded the max pet number: 0 in 1 ms
+Loading Player level dependent mail rewards...
+>> Loaded 14 level dependent mail rewards in 17 ms
+Loading creature loot templates...
+Table 'creature_loot_template' Entry 36756 does not exist but it is used by Creature 36756
+>> Loaded 914709 creature loot templates in 11699 ms
+Loading fishing loot templates...
+>> Loaded 3757 fishing loot templates in 133 ms
+Loading gameobject loot templates...
+Table 'gameobject_loot_template' Entry 30786 does not exist but it is used by Gameobject 204281
+Table 'gameobject_loot_template' Entry 29946 does not exist but it is used by Gameobject 203751
+Table 'gameobject_loot_template' Entry 29959 does not exist but it is used by Gameobject 203801
+Table 'gameobject_loot_template' Entry 29952 does not exist but it is used by Gameobject 203762
+Table 'gameobject_loot_template' Entry 203751 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 203762 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 203801 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 204281 isn't gameobject entry and not referenced from loot, and thus useless.
+>> Loaded 25886 gameobject loot templates in 397 ms
+Loading item loot templates...
+Table 'item_loot_template' Entry 200100 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200101 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200102 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200103 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200104 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200105 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200106 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200107 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200108 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200109 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200110 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200111 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200112 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200113 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200114 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200115 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200116 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200117 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200118 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200119 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200120 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200121 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200122 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200123 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200124 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200125 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200126 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200127 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200128 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200129 isn't item entry and not referenced from loot, and thus useless.
+>> Loaded 6454 item loot templates in 221 ms
+Loading mail loot templates...
+>> Loaded 30 mail loot templates in 35 ms
+Loading milling loot templates...
+>> Loaded 131 milling loot templates in 64 ms
+Loading pickpocketing loot templates...
+>> Loaded 10951 pickpocketing loot templates in 356 ms
+Loading skinning loot templates...
+>> Loaded 11413 skinning loot templates in 309 ms
+Loading disenchanting loot templates...
+Table 'disenchant_loot_template' Entry 180 does not exist
+Table 'disenchant_loot_template' Entry 181 does not exist
+Table 'disenchant_loot_template' Entry 182 does not exist
+Table 'disenchant_loot_template' Entry 183 does not exist
+Table 'disenchant_loot_template' Entry 184 does not exist
+Table 'disenchant_loot_template' Entry 185 does not exist
+>> Loaded 226 disenchanting loot templates in 67 ms
+Loading prospecting loot templates...
+>> Loaded 92 prospecting loot templates in 65 ms
+Loading spell loot templates...
+Table 'spell_loot_template' Entry 263154 Item 141812: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 199880: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 122799: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 130660: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 134337: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263153 Item 141822: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263151 Item 107079: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 253113 does not exist but it is used by Spell 253113
+Table 'spell_loot_template' Entry 253116 does not exist but it is used by Spell 253116
+Table 'spell_loot_template' Entry 253117 does not exist but it is used by Spell 253117
+Table 'spell_loot_template' Entry 253118 does not exist but it is used by Spell 253118
+Table 'spell_loot_template' Entry 253125 does not exist but it is used by Spell 253125
+Table 'spell_loot_template' Entry 253132 does not exist but it is used by Spell 253132
+Table 'spell_loot_template' Entry 253135 does not exist but it is used by Spell 253135
+Table 'spell_loot_template' Entry 253138 does not exist but it is used by Spell 253138
+Table 'spell_loot_template' Entry 253141 does not exist but it is used by Spell 253141
+Table 'spell_loot_template' Entry 253144 does not exist but it is used by Spell 253144
+Table 'spell_loot_template' Entry 253149 does not exist but it is used by Spell 253149
+Table 'spell_loot_template' Entry 253156 does not exist but it is used by Spell 253156
+Table 'spell_loot_template' Entry 253157 does not exist but it is used by Spell 253157
+Table 'spell_loot_template' Entry 253158 does not exist but it is used by Spell 253158
+Table 'spell_loot_template' Entry 253159 does not exist but it is used by Spell 253159
+Table 'spell_loot_template' Entry 253160 does not exist but it is used by Spell 253160
+Table 'spell_loot_template' Entry 253161 does not exist but it is used by Spell 253161
+Table 'spell_loot_template' Entry 253162 does not exist but it is used by Spell 253162
+Table 'spell_loot_template' Entry 253165 does not exist but it is used by Spell 253165
+Table 'spell_loot_template' Entry 253168 does not exist but it is used by Spell 253168
+Table 'spell_loot_template' Entry 253171 does not exist but it is used by Spell 253171
+Table 'spell_loot_template' Entry 253174 does not exist but it is used by Spell 253174
+Table 'spell_loot_template' Entry 253177 does not exist but it is used by Spell 253177
+Table 'spell_loot_template' Entry 253180 does not exist but it is used by Spell 253180
+Table 'spell_loot_template' Entry 253183 does not exist but it is used by Spell 253183
+Table 'spell_loot_template' Entry 253186 does not exist but it is used by Spell 253186
+Table 'spell_loot_template' Entry 253187 does not exist but it is used by Spell 253187
+Table 'spell_loot_template' Entry 253188 does not exist but it is used by Spell 253188
+Table 'spell_loot_template' Entry 253190 does not exist but it is used by Spell 253190
+Table 'spell_loot_template' Entry 253191 does not exist but it is used by Spell 253191
+Table 'spell_loot_template' Entry 253192 does not exist but it is used by Spell 253192
+Table 'spell_loot_template' Entry 255457 does not exist but it is used by Spell 255457
+Table 'spell_loot_template' Entry 255458 does not exist but it is used by Spell 255458
+Table 'spell_loot_template' Entry 255459 does not exist but it is used by Spell 255459
+Table 'spell_loot_template' Entry 255610 does not exist but it is used by Spell 255610
+Table 'spell_loot_template' Entry 256164 does not exist but it is used by Spell 256164
+Table 'spell_loot_template' Entry 256217 does not exist but it is used by Spell 256217
+Table 'spell_loot_template' Entry 256218 does not exist but it is used by Spell 256218
+Table 'spell_loot_template' Entry 256219 does not exist but it is used by Spell 256219
+Table 'spell_loot_template' Entry 256220 does not exist but it is used by Spell 256220
+Table 'spell_loot_template' Entry 256221 does not exist but it is used by Spell 256221
+Table 'spell_loot_template' Entry 256223 does not exist but it is used by Spell 256223
+Table 'spell_loot_template' Entry 256245 does not exist but it is used by Spell 256245
+Table 'spell_loot_template' Entry 256246 does not exist but it is used by Spell 256246
+Table 'spell_loot_template' Entry 256247 does not exist but it is used by Spell 256247
+Table 'spell_loot_template' Entry 256248 does not exist but it is used by Spell 256248
+Table 'spell_loot_template' Entry 256249 does not exist but it is used by Spell 256249
+Table 'spell_loot_template' Entry 256308 does not exist but it is used by Spell 256308
+Table 'spell_loot_template' Entry 256323 does not exist but it is used by Spell 256323
+Table 'spell_loot_template' Entry 256611 does not exist but it is used by Spell 256611
+Table 'spell_loot_template' Entry 256613 does not exist but it is used by Spell 256613
+Table 'spell_loot_template' Entry 256622 does not exist but it is used by Spell 256622
+Table 'spell_loot_template' Entry 256748 does not exist but it is used by Spell 256748
+Table 'spell_loot_template' Entry 256749 does not exist but it is used by Spell 256749
+Table 'spell_loot_template' Entry 256750 does not exist but it is used by Spell 256750
+Table 'spell_loot_template' Entry 256751 does not exist but it is used by Spell 256751
+Table 'spell_loot_template' Entry 256752 does not exist but it is used by Spell 256752
+Table 'spell_loot_template' Entry 256754 does not exist but it is used by Spell 256754
+Table 'spell_loot_template' Entry 256755 does not exist but it is used by Spell 256755
+Table 'spell_loot_template' Entry 256756 does not exist but it is used by Spell 256756
+Table 'spell_loot_template' Entry 256757 does not exist but it is used by Spell 256757
+Table 'spell_loot_template' Entry 256758 does not exist but it is used by Spell 256758
+Table 'spell_loot_template' Entry 256759 does not exist but it is used by Spell 256759
+Table 'spell_loot_template' Entry 256760 does not exist but it is used by Spell 256760
+Table 'spell_loot_template' Entry 256761 does not exist but it is used by Spell 256761
+Table 'spell_loot_template' Entry 256762 does not exist but it is used by Spell 256762
+Table 'spell_loot_template' Entry 256763 does not exist but it is used by Spell 256763
+Table 'spell_loot_template' Entry 256764 does not exist but it is used by Spell 256764
+Table 'spell_loot_template' Entry 256765 does not exist but it is used by Spell 256765
+Table 'spell_loot_template' Entry 256766 does not exist but it is used by Spell 256766
+Table 'spell_loot_template' Entry 256767 does not exist but it is used by Spell 256767
+Table 'spell_loot_template' Entry 256768 does not exist but it is used by Spell 256768
+Table 'spell_loot_template' Entry 256769 does not exist but it is used by Spell 256769
+Table 'spell_loot_template' Entry 256770 does not exist but it is used by Spell 256770
+Table 'spell_loot_template' Entry 256771 does not exist but it is used by Spell 256771
+Table 'spell_loot_template' Entry 256772 does not exist but it is used by Spell 256772
+Table 'spell_loot_template' Entry 256773 does not exist but it is used by Spell 256773
+Table 'spell_loot_template' Entry 256774 does not exist but it is used by Spell 256774
+Table 'spell_loot_template' Entry 256775 does not exist but it is used by Spell 256775
+Table 'spell_loot_template' Entry 256776 does not exist but it is used by Spell 256776
+Table 'spell_loot_template' Entry 256777 does not exist but it is used by Spell 256777
+Table 'spell_loot_template' Entry 256778 does not exist but it is used by Spell 256778
+Table 'spell_loot_template' Entry 256779 does not exist but it is used by Spell 256779
+Table 'spell_loot_template' Entry 256780 does not exist but it is used by Spell 256780
+Table 'spell_loot_template' Entry 256781 does not exist but it is used by Spell 256781
+Table 'spell_loot_template' Entry 256782 does not exist but it is used by Spell 256782
+Table 'spell_loot_template' Entry 256783 does not exist but it is used by Spell 256783
+Table 'spell_loot_template' Entry 256784 does not exist but it is used by Spell 256784
+Table 'spell_loot_template' Entry 256786 does not exist but it is used by Spell 256786
+Table 'spell_loot_template' Entry 256787 does not exist but it is used by Spell 256787
+Table 'spell_loot_template' Entry 256788 does not exist but it is used by Spell 256788
+Table 'spell_loot_template' Entry 256789 does not exist but it is used by Spell 256789
+Table 'spell_loot_template' Entry 257095 does not exist but it is used by Spell 257095
+Table 'spell_loot_template' Entry 257096 does not exist but it is used by Spell 257096
+Table 'spell_loot_template' Entry 257097 does not exist but it is used by Spell 257097
+Table 'spell_loot_template' Entry 257099 does not exist but it is used by Spell 257099
+Table 'spell_loot_template' Entry 257101 does not exist but it is used by Spell 257101
+Table 'spell_loot_template' Entry 257102 does not exist but it is used by Spell 257102
+Table 'spell_loot_template' Entry 257103 does not exist but it is used by Spell 257103
+Table 'spell_loot_template' Entry 257104 does not exist but it is used by Spell 257104
+Table 'spell_loot_template' Entry 257107 does not exist but it is used by Spell 257107
+Table 'spell_loot_template' Entry 257114 does not exist but it is used by Spell 257114
+Table 'spell_loot_template' Entry 257115 does not exist but it is used by Spell 257115
+Table 'spell_loot_template' Entry 257116 does not exist but it is used by Spell 257116
+Table 'spell_loot_template' Entry 257118 does not exist but it is used by Spell 257118
+Table 'spell_loot_template' Entry 257120 does not exist but it is used by Spell 257120
+Table 'spell_loot_template' Entry 257121 does not exist but it is used by Spell 257121
+Table 'spell_loot_template' Entry 257122 does not exist but it is used by Spell 257122
+Table 'spell_loot_template' Entry 257123 does not exist but it is used by Spell 257123
+Table 'spell_loot_template' Entry 257124 does not exist but it is used by Spell 257124
+Table 'spell_loot_template' Entry 257715 does not exist but it is used by Spell 257715
+Table 'spell_loot_template' Entry 257716 does not exist but it is used by Spell 257716
+Table 'spell_loot_template' Entry 257717 does not exist but it is used by Spell 257717
+Table 'spell_loot_template' Entry 257718 does not exist but it is used by Spell 257718
+Table 'spell_loot_template' Entry 257719 does not exist but it is used by Spell 257719
+Table 'spell_loot_template' Entry 257720 does not exist but it is used by Spell 257720
+Table 'spell_loot_template' Entry 257721 does not exist but it is used by Spell 257721
+Table 'spell_loot_template' Entry 257722 does not exist but it is used by Spell 257722
+Table 'spell_loot_template' Entry 257723 does not exist but it is used by Spell 257723
+Table 'spell_loot_template' Entry 257724 does not exist but it is used by Spell 257724
+Table 'spell_loot_template' Entry 260384 does not exist but it is used by Spell 260384
+Table 'spell_loot_template' Entry 261837 does not exist but it is used by Spell 261837
+Table 'spell_loot_template' Entry 263251 does not exist but it is used by Spell 263251
+Table 'spell_loot_template' Entry 265106 does not exist but it is used by Spell 265106
+Table 'spell_loot_template' Entry 265110 does not exist but it is used by Spell 265110
+Table 'spell_loot_template' Entry 265111 does not exist but it is used by Spell 265111
+Table 'spell_loot_template' Entry 265112 does not exist but it is used by Spell 265112
+Table 'spell_loot_template' Entry 265698 does not exist but it is used by Spell 265698
+Table 'spell_loot_template' Entry 269421 does not exist but it is used by Spell 269421
+Table 'spell_loot_template' Entry 269422 does not exist but it is used by Spell 269422
+Table 'spell_loot_template' Entry 269423 does not exist but it is used by Spell 269423
+Table 'spell_loot_template' Entry 269424 does not exist but it is used by Spell 269424
+Table 'spell_loot_template' Entry 269425 does not exist but it is used by Spell 269425
+Table 'spell_loot_template' Entry 269426 does not exist but it is used by Spell 269426
+Table 'spell_loot_template' Entry 269444 does not exist but it is used by Spell 269444
+Table 'spell_loot_template' Entry 269446 does not exist but it is used by Spell 269446
+Table 'spell_loot_template' Entry 269447 does not exist but it is used by Spell 269447
+Table 'spell_loot_template' Entry 269448 does not exist but it is used by Spell 269448
+Table 'spell_loot_template' Entry 269449 does not exist but it is used by Spell 269449
+Table 'spell_loot_template' Entry 269450 does not exist but it is used by Spell 269450
+Table 'spell_loot_template' Entry 269451 does not exist but it is used by Spell 269451
+Table 'spell_loot_template' Entry 269452 does not exist but it is used by Spell 269452
+Table 'spell_loot_template' Entry 269453 does not exist but it is used by Spell 269453
+Table 'spell_loot_template' Entry 269458 does not exist but it is used by Spell 269458
+Table 'spell_loot_template' Entry 269459 does not exist but it is used by Spell 269459
+Table 'spell_loot_template' Entry 269460 does not exist but it is used by Spell 269460
+Table 'spell_loot_template' Entry 269464 does not exist but it is used by Spell 269464
+Table 'spell_loot_template' Entry 269465 does not exist but it is used by Spell 269465
+Table 'spell_loot_template' Entry 269466 does not exist but it is used by Spell 269466
+Table 'spell_loot_template' Entry 269470 does not exist but it is used by Spell 269470
+Table 'spell_loot_template' Entry 269471 does not exist but it is used by Spell 269471
+Table 'spell_loot_template' Entry 269472 does not exist but it is used by Spell 269472
+Table 'spell_loot_template' Entry 269476 does not exist but it is used by Spell 269476
+Table 'spell_loot_template' Entry 269477 does not exist but it is used by Spell 269477
+Table 'spell_loot_template' Entry 269478 does not exist but it is used by Spell 269478
+Table 'spell_loot_template' Entry 269479 does not exist but it is used by Spell 269479
+Table 'spell_loot_template' Entry 269480 does not exist but it is used by Spell 269480
+Table 'spell_loot_template' Entry 269481 does not exist but it is used by Spell 269481
+Table 'spell_loot_template' Entry 269516 does not exist but it is used by Spell 269516
+Table 'spell_loot_template' Entry 269517 does not exist but it is used by Spell 269517
+Table 'spell_loot_template' Entry 269518 does not exist but it is used by Spell 269518
+Table 'spell_loot_template' Entry 269519 does not exist but it is used by Spell 269519
+Table 'spell_loot_template' Entry 269520 does not exist but it is used by Spell 269520
+Table 'spell_loot_template' Entry 269521 does not exist but it is used by Spell 269521
+Table 'spell_loot_template' Entry 269522 does not exist but it is used by Spell 269522
+Table 'spell_loot_template' Entry 269523 does not exist but it is used by Spell 269523
+Table 'spell_loot_template' Entry 269524 does not exist but it is used by Spell 269524
+Table 'spell_loot_template' Entry 269525 does not exist but it is used by Spell 269525
+Table 'spell_loot_template' Entry 269526 does not exist but it is used by Spell 269526
+Table 'spell_loot_template' Entry 269527 does not exist but it is used by Spell 269527
+Table 'spell_loot_template' Entry 269528 does not exist but it is used by Spell 269528
+Table 'spell_loot_template' Entry 269529 does not exist but it is used by Spell 269529
+Table 'spell_loot_template' Entry 269530 does not exist but it is used by Spell 269530
+Table 'spell_loot_template' Entry 269531 does not exist but it is used by Spell 269531
+Table 'spell_loot_template' Entry 269532 does not exist but it is used by Spell 269532
+Table 'spell_loot_template' Entry 269533 does not exist but it is used by Spell 269533
+Table 'spell_loot_template' Entry 269534 does not exist but it is used by Spell 269534
+Table 'spell_loot_template' Entry 269535 does not exist but it is used by Spell 269535
+Table 'spell_loot_template' Entry 269536 does not exist but it is used by Spell 269536
+Table 'spell_loot_template' Entry 269537 does not exist but it is used by Spell 269537
+Table 'spell_loot_template' Entry 269538 does not exist but it is used by Spell 269538
+Table 'spell_loot_template' Entry 269539 does not exist but it is used by Spell 269539
+Table 'spell_loot_template' Entry 269540 does not exist but it is used by Spell 269540
+Table 'spell_loot_template' Entry 269541 does not exist but it is used by Spell 269541
+Table 'spell_loot_template' Entry 269542 does not exist but it is used by Spell 269542
+Table 'spell_loot_template' Entry 269543 does not exist but it is used by Spell 269543
+Table 'spell_loot_template' Entry 269544 does not exist but it is used by Spell 269544
+Table 'spell_loot_template' Entry 269545 does not exist but it is used by Spell 269545
+Table 'spell_loot_template' Entry 269552 does not exist but it is used by Spell 269552
+Table 'spell_loot_template' Entry 269553 does not exist but it is used by Spell 269553
+Table 'spell_loot_template' Entry 269554 does not exist but it is used by Spell 269554
+Table 'spell_loot_template' Entry 269596 does not exist but it is used by Spell 269596
+Table 'spell_loot_template' Entry 269597 does not exist but it is used by Spell 269597
+Table 'spell_loot_template' Entry 269598 does not exist but it is used by Spell 269598
+Table 'spell_loot_template' Entry 269599 does not exist but it is used by Spell 269599
+Table 'spell_loot_template' Entry 269600 does not exist but it is used by Spell 269600
+Table 'spell_loot_template' Entry 269601 does not exist but it is used by Spell 269601
+Table 'spell_loot_template' Entry 269602 does not exist but it is used by Spell 269602
+Table 'spell_loot_template' Entry 269603 does not exist but it is used by Spell 269603
+Table 'spell_loot_template' Entry 269604 does not exist but it is used by Spell 269604
+Table 'spell_loot_template' Entry 269605 does not exist but it is used by Spell 269605
+Table 'spell_loot_template' Entry 269606 does not exist but it is used by Spell 269606
+Table 'spell_loot_template' Entry 269607 does not exist but it is used by Spell 269607
+Table 'spell_loot_template' Entry 269608 does not exist but it is used by Spell 269608
+Table 'spell_loot_template' Entry 269609 does not exist but it is used by Spell 269609
+Table 'spell_loot_template' Entry 269610 does not exist but it is used by Spell 269610
+Table 'spell_loot_template' Entry 269611 does not exist but it is used by Spell 269611
+Table 'spell_loot_template' Entry 269612 does not exist but it is used by Spell 269612
+Table 'spell_loot_template' Entry 269613 does not exist but it is used by Spell 269613
+Table 'spell_loot_template' Entry 269715 does not exist but it is used by Spell 269715
+Table 'spell_loot_template' Entry 269716 does not exist but it is used by Spell 269716
+Table 'spell_loot_template' Entry 269719 does not exist but it is used by Spell 269719
+Table 'spell_loot_template' Entry 269727 does not exist but it is used by Spell 269727
+Table 'spell_loot_template' Entry 269728 does not exist but it is used by Spell 269728
+Table 'spell_loot_template' Entry 269729 does not exist but it is used by Spell 269729
+Table 'spell_loot_template' Entry 269740 does not exist but it is used by Spell 269740
+Table 'spell_loot_template' Entry 269741 does not exist but it is used by Spell 269741
+Table 'spell_loot_template' Entry 269742 does not exist but it is used by Spell 269742
+Table 'spell_loot_template' Entry 272502 does not exist but it is used by Spell 272502
+Table 'spell_loot_template' Entry 272937 does not exist but it is used by Spell 272937
+Table 'spell_loot_template' Entry 273812 does not exist but it is used by Spell 273812
+Table 'spell_loot_template' Entry 273851 does not exist but it is used by Spell 273851
+Table 'spell_loot_template' Entry 278131 does not exist but it is used by Spell 278131
+Table 'spell_loot_template' Entry 278132 does not exist but it is used by Spell 278132
+Table 'spell_loot_template' Entry 278133 does not exist but it is used by Spell 278133
+Table 'spell_loot_template' Entry 278527 does not exist but it is used by Spell 278527
+Table 'spell_loot_template' Entry 280608 does not exist but it is used by Spell 280608
+Table 'spell_loot_template' Entry 263148 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263149 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263150 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263151 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263152 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263153 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263154 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+>> Loaded 2681 spell loot templates in 332 ms
+Loading reference loot templates...
+>> Loaded refence loot templates in 260 ms
+Loading Skill Discovery Table...
+>> Loaded 130 skill discovery definitions in 100 ms.
+Loading Skill Extra Item Table...
+>> Loaded 219 spell specialization definitions in 5 ms
+Loading Skill Perfection Data Table...
+>> Loaded 47 spell perfection definitions in 4 ms.
+Loading Skill Fishing base level requirements...
+>> Loaded 93 areas for fishing base skill level in 10 ms
+Loading skill tier info...
+>> Loaded 34 skill max values in 11 ms
+Loading Criteria Modifier trees...
+>> Loaded 74693 criteria modifiers in 49 ms
+Loading Criteria Lists...
+Criteria 40707 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41074 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41159 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41160 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41216 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41217 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41218 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41219 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41220 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41221 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41222 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41223 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41224 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41225 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41226 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41227 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41228 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41229 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41230 has unsupported type 213 (supported: 0..212); skipped.
+Criteria 41231 has unsupported type 213 (supported: 0..212); skipped.
+Skipped 25 criteria with unsupported types (first 20 logged). Check Criteria.db2 against client build 26124; these achievements are unavailable.
+>> Loaded 19966 criteria, 1252 guild criteria, 2817 scenario criteria and 1792 quest objective criteria in 87 ms.
+Loading Criteria Data...
+Table `criteria_data` contains data for non-existing criteria (Entry: 6180). Ignored.
+Table `criteria_data` contains data for non-existing criteria (Entry: 10066). Ignored.
+Table `criteria_data` contains data for non-existing criteria (Entry: 10067). Ignored.
+Table `criteria_data` contains data for non-existing criteria (Entry: 6084). Ignored.
+Table `criteria_data` contains data for non-existing criteria (Entry: 6133). Ignored.
+>> Loaded 308 additional criteria data in 6 ms
+Loading Achievements...
+>> Loaded 43 achievement references in 1 ms.
+Loading Achievement Rewards...
+Table `achievement_reward` (Entry: 13) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 3636) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 9496) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 10058) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 10741) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 11210) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 11211) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 11848) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 2398) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 4400) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 5863) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 6131) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 7853) does not contain title or item reward data. Ignored.
+Table `achievement_reward` (Entry: 8820) does not contain title or item reward data. Ignored.
+>> Loaded 587 achievement rewards in 58 ms.
+Loading Achievement Reward Locales...
+>> Loaded 0 achievement reward locale strings.  DB table `locales_achievement_reward` is empty.
+Loading Completed Achievements...
+>> Loaded 0 realm first completed achievements. DB table `character_achievement` is empty.
+Loading Item Auctions...
+>> Loaded 0 auction items. DB table `auctionhouse` or `item_instance` is empty!
+Loading Auctions...
+>> Loaded 0 auctions. DB table `auctionhouse` is empty.
+Loading Black Market Templates...
+>> Loaded 75 black market templates in 9 ms.
+Loading Black Market Auctions...
+>> Loaded 0 black market auctions. DB table `blackmarket_auctions` is empty.
+Loading Guild rewards...
+>> Loaded 62 guild reward definitions in 30 ms
+Loading Guilds...
+Loading guilds definitions...
+>> Loaded 0 guild definitions. DB table `guild` is empty.
+Loading guild finder guild-related settings...
+>> Loaded 0 guild finder guild-related settings. Table `guild_finder_guild_settings` is empty.
+Loading guild finder membership requests...
+>> Loaded 0 guild finder membership requests. Table `guild_finder_applicant` is empty.
+Loading ArenaTeams...
+>> Loaded 0 arena teams. DB table `arena_team` is empty!
+Loading Groups...
+>> Loaded 0 group definitions. DB table `groups` is empty!
+Loading ReservedNames...
+>> Loaded 0 reserved player names. DB table `reserved_name` is empty!
+Loading GameObjects for quests...
+>> Loaded 4081 GameObjects for quests in 9 ms
+Loading BattleMasters...
+>> Loaded 189 battlemaster entries in 30 ms
+Loading GameTeleports...
+>> Loaded 1606 GameTeleports in 35 ms
+Loading Trainers...
+>> Loaded 54 Trainers in 127 ms
+Loading Creature default trainers...
+>> Loaded 160 default trainers in 16 ms
+Loading Gossip menu...
+Table gossip_menu: ID 11061 is using non-existing TextId 15442
+>> Loaded 7444 gossip_menu IDs in 19 ms
+Loading Gossip menu options...
+>> Loaded 6231 gossip_menu_option entries in 288 ms
+Loading Vendors...
+Table `(game_event_)npc_vendor` has `maxcount` (2) for item 138295 of vendor (Entry: 111903) but `incrtime`=0, ignore
+>> Loaded 81845 Vendors in 1157 ms
+Loading Trainers...
+>> Loaded 56601 Trainers in 731 ms
+Loading Waypoints...
+>> Loaded 86616 waypoints in 896 ms
+Loading SmartAI Waypoints...
+>> Loaded 536 SmartAI waypoint paths (total 6598 waypoints) in 135 ms
+Loading Creature Formations...
+creature_formations table leader guid 370509 incorrect (not exist)
+creature_formations table leader guid 370509 incorrect (not exist)
+creature_formations table leader guid 370509 incorrect (not exist)
+creature_formations table member guid 370510 incorrect (not exist)
+creature_formations table member guid 370571 incorrect (not exist)
+creature_formations table leader guid 370570 incorrect (not exist)
+creature_formations table leader guid 370570 incorrect (not exist)
+creature_formations table leader guid 370570 incorrect (not exist)
+>> Loaded 987 creatures in formations in 52 ms
+Loading World States...
+>> Loaded 93 world states in 3 ms
+Loading Terrain World Map definitions...
+>> Loaded 7 terrain world maps in 5 ms.
+Loading Terrain Swap Default definitions...
+>> Loaded 5 terrain swap defaults in 4 ms.
+Loading Phase Area definitions...
+>> Loaded 88 phase areas in 3 ms.
+Loading Conditions...
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200244] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200243] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200301, ConditionType: 7 (Skill)] specifies skill (165) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200302, ConditionType: 7 (Skill)] specifies skill (164) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200303, ConditionType: 7 (Skill)] specifies skill (197) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200304, ConditionType: 7 (Skill)] specifies skill (202) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200305, ConditionType: 7 (Skill)] specifies skill (755) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200306, ConditionType: 7 (Skill)] specifies skill (333) with invalid value (800), skipped.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200200] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200201] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200202] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200203] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200204] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200205] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200206] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200207] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200208] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200209] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200210] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200211] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200212] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200213] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200214] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200215] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200216] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200217] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200218] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200219] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200220] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200221] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200222] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200223] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200224] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200225] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200226] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200227] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200228] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200229] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200230] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200231] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200232] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200233] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200234] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200235] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200236] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200237] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200238] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200239] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200240] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200241] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+[Condition SourceType: 25 (Terrain Swap), SourceEntry: 200242] SourceEntry in `condition` table, does not exist in Map.dbc, ignoring.
+>> Loaded 8261 conditions in 153 ms
+Loading faction change achievement pairs...
+>> Loaded 122 faction change achievement pairs in 3 ms
+Loading faction change spell pairs...
+>> Loaded 121 faction change spell pairs in 1 ms
+Loading faction change quest pairs...
+>> Loaded 250 faction change quest pairs in 3 ms
+Loading faction change item pairs...
+>> Loaded 3484 faction change item pairs in 8 ms
+Loading faction change reputation pairs...
+>> Loaded 31 faction change reputation pairs in 2 ms
+Loading faction change title pairs...
+>> Loaded 23 faction change title pairs in 2 ms
+Loading mount definitions...
+>> Loaded 50 mount definitions in 1 ms
+Loading GM bugs...
+>> Loaded 0 GM bugs. DB table `gm_bug` is empty!
+Loading GM complaints...
+>> Loaded 0 GM complaints. DB table `gm_complaint` is empty!
+Loading GM suggestions...
+>> Loaded 0 GM suggestions. DB table `gm_suggestion` is empty!
+Loading garrison info...
+>> Loaded 11 garrison plot finalize entries in 1.
+>> Loaded 170 garrison follower class spec abilities in 0.
+Returning old mails...
+>> No expired mails found.
+Loading Autobroadcasts...
+>> Loaded 0 autobroadcasts definitions. DB table `autobroadcast` is empty for this realm!
+Loading spell_scripts...
+>> Loaded 121 script definitions in 21 ms
+Loading event_scripts...
+>> Loaded 410 script definitions in 37 ms
+Loading waypoint_scripts...
+>> Loaded 438 script definitions in 45 ms
+Loading spell script names...
+Scriptname: `spell_warr_lambs_to_the_slaughter` spell (Id: -84583) does not exist.
+Scriptname: `spell_pri_phantasm` spell (Id: -47569) does not exist.
+Scriptname: `spell_pri_divine_aegis` spell (Id: -47509) does not exist.
+Scriptname: `spell_warr_sword_and_board` spell (Id: -46951) does not exist.
+Scriptname: `spell_hun_improved_mend_pet` spell (Id: -19572) does not exist.
+Scriptname: `spell_sha_lightning_shield` spell (Id: 324) does not exist.
+Scriptname: `spell_dru_mark_of_the_wild` spell (Id: 1126) does not exist.
+Scriptname: `spell_pri_lightwell_renew` spell (Id: 7001) does not exist.
+Scriptname: `spell_shaman_windfury_weapon` spell (Id: 8232) does not exist.
+Scriptname: `spell_pal_blessing_of_might` spell (Id: 19740) does not exist.
+Scriptname: `spell_pal_blessing_of_kings` spell (Id: 20217) does not exist.
+Scriptname: `spell_warr_retaliation` spell (Id: 20230) does not exist.
+Scriptname: `spell_mark_of_nature` spell (Id: 25042) does not exist.
+Scriptname: `spell_pri_shadow_protection` spell (Id: 27683) does not exist.
+Scriptname: `spell_sha_glyph_of_shamanistic_rage` spell (Id: 30823) does not exist.
+Scriptname: `spell_archimonde_drain_world_tree_dummy` spell (Id: 39142) does not exist.
+Scriptname: `spell_dk_plague_strike` spell (Id: 45462) does not exist.
+Scriptname: `spell_pri_pain_and_suffering_proc` spell (Id: 47948) does not exist.
+Scriptname: `spell_warl_molten_core_dot` spell (Id: 47960) does not exist.
+Scriptname: `spell_dk_blood_gorged` spell (Id: 50453) does not exist.
+Scriptname: `spell_warr_vigilance` spell (Id: 50720) does not exist.
+Scriptname: `spell_warr_vigilance_trigger` spell (Id: 50725) does not exist.
+Scriptname: `spell_hun_invigoration` spell (Id: 53412) does not exist.
+Scriptname: `spell_sha_glyph_of_healing_wave` spell (Id: 55440) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 58630) does not exist.
+Scriptname: `spell_dk_glyph_of_deaths_embrace` spell (Id: 58677) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 59046) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 59450) does not exist.
+Scriptname: `spell_warr_improved_spell_reflection` spell (Id: 59725) does not exist.
+Scriptname: `spell_gen_ds_flush_knockback` spell (Id: 61698) does not exist.
+Scriptname: `spell_xt002_heart_overload_periodic` spell (Id: 62791) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 64899) does not exist.
+Scriptname: `spell_pri_hymn_of_hope` spell (Id: 64904) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 64985) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 65074) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 65195) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 68184) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 68572) does not exist.
+Scriptname: `spell_gen_dungeon_credit` spell (Id: 68574) does not exist.
+Scriptname: `spell_pos_ice_shards` spell (Id: 70827) does not exist.
+Scriptname: `spell_putricide_slime_puddle_aura` spell (Id: 72868) does not exist.
+Scriptname: `spell_putricide_slime_puddle_aura` spell (Id: 72869) does not exist.
+Scriptname: `spell_halion_spawn_living_embers` spell (Id: 75880) does not exist.
+Scriptname: `spell_sha_fulmination` spell (Id: 88766) does not exist.
+Scriptname: `spell_springvale_forsaken_ability` spell (Id: 91436) does not exist.
+Scriptname: `spell_springvale_forsaken_ability` spell (Id: 91442) does not exist.
+Scriptname: `spell_springvale_forsaken_ability` spell (Id: 91444) does not exist.
+Scriptname: `spell_corruption_sickness` spell (Id: 93202) does not exist.
+Scriptname: `spell_wind_burst` spell (Id: 93261) does not exist.
+Scriptname: `spell_wind_burst` spell (Id: 93262) does not exist.
+Scriptname: `spell_wind_burst` spell (Id: 93263) does not exist.
+Scriptname: `spell_warr_rend` spell (Id: 94009) does not exist.
+Scriptname: `spell_warl_metamorphosis_cost` spell (Id: 103958) does not exist.
+Scriptname: `spell_ultraxion_last_defender_of_azeroth` spell (Id: 106162) does not exist.
+Scriptname: `spell_dk_death_siphon` spell (Id: 108196) does not exist.
+Scriptname: `spell_pri_void_tendrils` spell (Id: 108920) does not exist.
+Scriptname: `spell_priest_angelic_bulwark` spell (Id: 108945) does not exist.
+Scriptname: `spell_warl_demonic_call` spell (Id: 114175) does not exist.
+Scriptname: `spell_dk_blood_charges` spell (Id: 114851) does not exist.
+Scriptname: `spell_monk_legacy_of_the_emperor` spell (Id: 115921) does not exist.
+Scriptname: `spell_monk_surging_mist_glyphed` spell (Id: 123273) does not exist.
+Scriptname: `spell_monk_mana_tea_stacks` spell (Id: 123766) does not exist.
+Scriptname: `spell_monk_tigereye_brew_stacks` spell (Id: 123980) does not exist.
+Scriptname: `spell_monk_path_of_blossom` spell (Id: 124336) does not exist.
+Scriptname: `spell_monk_ring_of_peace_aura` spell (Id: 140023) does not exist.
+Scriptname: `spell_dk_glyph_of_runic_power` spell (Id: 159429) does not exist.
+Scriptname: `spell_rog_enveloping_shadows` spell (Id: 206237) does not exist.
+Scriptname: `shadowmoon_burial_grounds_initial_teleport` spell (Id: 342521) does not exist.
+Scriptname: `shadowmoon_burial_grounds_ritual_of_bones_darkness_trigger` spell (Id: 534556) does not exist.
+>> Loaded 2867 spell script names in 55 ms
+Loading Creature Texts...
+>> Loaded 16083 creature texts for 4521 creatures in 321 ms
+Loading Creature Text Locales...
+>> Loaded 11 creature localized texts in 3 ms
+Initializing Scripts...
+Loading Script Waypoints for 64 creature(s)...
+>> Loaded 1495 Script Waypoint nodes in 70 ms
+>> Loaded spline chain data for 0 chains, consisting of 0 splines with 0 waypoints. DB tables `script_spline_chain_meta` and `script_spline_chain_waypoints` are empty.
+Loading C++ scripts
+Script named 'at_legion_portal_aovh_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_aovh_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_coen_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_coen_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_cos_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_cos_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_hov_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_hov_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_mos_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_mos_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_nl_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_nl_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_rtkara_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_rtkara_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_taw_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_taw_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_votw_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_votw_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_en_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_tov_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_tov_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_tnh_entrance' does not have a script name assigned in database.
+Script named 'at_legion_portal_tnh_exit' does not have a script name assigned in database.
+Script named 'at_legion_portal_helheim_entrance' does not have a script name assigned in database.
+Script named 'go_mardum_legion_banner_1' does not have a script name assigned in database.
+Script named 'npc_mardum_allari' does not have a script name assigned in database.
+Script named 'npc_hymdall_drake' does not have a script name assigned in database.
+Script named 'spell_nythendra_rot' does not have a script name assigned in database.
+Script named 'instance_scarlet_halls' does not have a script name assigned in database.
+Script named 'instance_scarlet_monastery_mop' does not have a script name assigned in database.
+Script named 'instance_scholomance_mop' does not have a script name assigned in database.
+Script named 'instance_terrace_of_endless_spring' does not have a script name assigned in database.
+Script named 'instance_heart_of_fear' does not have a script name assigned in database.
+Script named 'instance_throne_of_thunder' does not have a script name assigned in database.
+Script named 'instance_siege_of_orgrimmar' does not have a script name assigned in database.
+Script named 'instance_auchindoun' does not have a script name assigned in database.
+Script named 'instance_grimrail_depot' does not have a script name assigned in database.
+Script named 'instance_iron_docks' does not have a script name assigned in database.
+Script named 'instance_skyreach' does not have a script name assigned in database.
+Script named 'instance_upper_blackrock_spire' does not have a script name assigned in database.
+Script named 'instance_highmaul' does not have a script name assigned in database.
+Script named 'instance_blackrock_foundry' does not have a script name assigned in database.
+Script named 'instance_hellfire_citadel' does not have a script name assigned in database.
+Script named 'boss_iron_maidens' does not have a script name assigned in database.
+Script named 'boss_grimrail_enforcers' does not have a script name assigned in database.
+Script named 'npc_scenario_door' does not have a script name assigned in database.
+Script named 'spell_scenario_npc_landing' does not have a script name assigned in database.
+Script named 'npc_icycle_dm' does not have a script name assigned in database.
+Script named 'npc_son_of_flame' does not have a script name assigned in database.
+Script named 'npc_flame_protection_rune1' does not have a script name assigned in database.
+Script named 'npc_vics_flying_machine' does not have a script name assigned in database.
+Script named 'spell_ook_ook_barrel' does not have a script name assigned in database.
+Script named 'spell_dk_heart_strike' does not have a script name assigned in database.
+Script named 'spell_dh_fraility' does not have a script name assigned in database.
+Script named 'spell_dru_travel_form_aura' does not have a script name assigned in database.
+Script named 'spell_gen_bandage' does not have a script name assigned in database.
+Script named 'spell_mage_fireball' does not have a script name assigned in database.
+Script named 'at_monk_chi_burst_damage' does not have a script name assigned in database.
+Script named 'npc_sef_earth_spirit' does not have a script name assigned in database.
+Script named 'npc_sef_fire_spirit' does not have a script name assigned in database.
+Script named 'spell_pal_holy_light' does not have a script name assigned in database.
+Script named 'at_pal_consecration' does not have a script name assigned in database.
+Script named 'spell_warl_call_dreadstalker' does not have a script name assigned in database.
+Script named 'spell_warl_haunt' does not have a script name assigned in database.
+Script named 'spell_warl_soulburn_override' does not have a script name assigned in database.
+Script named 'spell_warl_soulburn_remove' does not have a script name assigned in database.
+Script named 'spell_warl_soulburn_seed_of_corruption' does not have a script name assigned in database.
+Script named 'spell_warl_soulburn_seed_of_corruption_damage' does not have a script name assigned in database.
+Script named 'spell_warl_twilight_ward_s12' does not have a script name assigned in database.
+ScriptName 'npc_converted_sentry' exists in database, but no core script found!
+ScriptName 'spell_eoa_lightning_strikes_damage' exists in database, but no core script found!
+ScriptName 'boss_serpentrix' exists in database, but no core script found!
+ScriptName 'boss_odyn_hov' exists in database, but no core script found!
+ScriptName 'areatrigger_glowing_fragment' exists in database, but no core script found!
+ScriptName 'areatrigger_dancing_blade' exists in database, but no core script found!
+ScriptName 'achievement_but_you_say_hes_just_a_friend' exists in database, but no core script found!
+ScriptName 'at_pri_divine_star' exists in database, but no core script found!
+ScriptName 'aura_dru_astral_form' exists in database, but no core script found!
+ScriptName 'aura_eoa_violent_winds_broadcast' exists in database, but no core script found!
+ScriptName 'npc_blazing_hydra_spawn' exists in database, but no core script found!
+ScriptName 'boss_king_deepbeard' exists in database, but no core script found!
+ScriptName 'aura_king_deepbeard_gaseous_bubbles' exists in database, but no core script found!
+ScriptName 'spell_mage_ring_of_frost' exists in database, but no core script found!
+ScriptName 'aura_hatecoil_wavebinder_bubble_shield' exists in database, but no core script found!
+ScriptName 'boss_wrath_of_azshara' exists in database, but no core script found!
+ScriptName 'aura_nythendra_infested' exists in database, but no core script found!
+ScriptName 'at_wrath_of_azshara_tidal_wave' exists in database, but no core script found!
+ScriptName 'aura_dru_feral_affinity' exists in database, but no core script found!
+ScriptName 'aura_artifact_shaman_stormkeeper' exists in database, but no core script found!
+ScriptName 'achievement_stay_salty' exists in database, but no core script found!
+ScriptName 'spell_dru_travel_form_dummy' exists in database, but no core script found!
+ScriptName 'mob_soul_cutter' exists in database, but no core script found!
+ScriptName 'spell_nullification_barrier' exists in database, but no core script found!
+ScriptName 'spell_warl_grimoire_of_service_aura' exists in database, but no core script found!
+ScriptName 'boss_king_ranulf' exists in database, but no core script found!
+ScriptName 'at_pal_aura_of_sacrifice' exists in database, but no core script found!
+ScriptName 'aura_dru_frenzied_regeneration' exists in database, but no core script found!
+ScriptName 'at_king_deepbeard_call_the_seas' exists in database, but no core script found!
+ScriptName 'spell_extinguish_fire' exists in database, but no core script found!
+ScriptName 'areatrigger_aegis_of_aggramar' exists in database, but no core script found!
+ScriptName 'at_umbral_ejection' exists in database, but no core script found!
+ScriptName 'areatrigger_flame_of_woe' exists in database, but no core script found!
+ScriptName 'areatrigger_infernal_flames' exists in database, but no core script found!
+ScriptName 'areatrigger_runic_mark_1' exists in database, but no core script found!
+ScriptName 'go_allied_race_infos_tauren' exists in database, but no core script found!
+ScriptName 'at_skrog_tidestomper_massive_quake' exists in database, but no core script found!
+ScriptName 'areatrigger_runic_mark_2' exists in database, but no core script found!
+ScriptName 'areatrigger_runic_mark_3' exists in database, but no core script found!
+ScriptName 'areatrigger_runic_mark_4' exists in database, but no core script found!
+ScriptName 'spell_spawn_flash_3_periodic' exists in database, but no core script found!
+ScriptName 'areatrigger_runic_mark_5' exists in database, but no core script found!
+ScriptName 'areatrigger_storm_breath' exists in database, but no core script found!
+ScriptName 'areatrigger_shatter_earth' exists in database, but no core script found!
+ScriptName 'areatrigger_spear_of_light' exists in database, but no core script found!
+ScriptName 'at_animated_storm_water_spout' exists in database, but no core script found!
+ScriptName 'aura_item_burning_essence' exists in database, but no core script found!
+ScriptName 'mob_mogu_secret_keeper' exists in database, but no core script found!
+ScriptName 'go_ancien_control_console' exists in database, but no core script found!
+ScriptName 'at_center_eye_of_the_storm' exists in database, but no core script found!
+ScriptName 'boss_zuraal_the_ascended' exists in database, but no core script found!
+ScriptName 'at_eye_of_the_storm' exists in database, but no core script found!
+ScriptName 'at_wrath_of_azshara_surging_waters' exists in database, but no core script found!
+ScriptName 'at_lady_hatecoil_monsoon' exists in database, but no core script found!
+ScriptName 'at_mage_cinderstorm' exists in database, but no core script found!
+ScriptName 'at_mage_flame_patch' exists in database, but no core script found!
+ScriptName 'aura_dh_fraility' exists in database, but no core script found!
+ScriptName 'at_pri_halo' exists in database, but no core script found!
+ScriptName 'at_sanctify' exists in database, but no core script found!
+ScriptName 'spell_hun_call_pet' exists in database, but no core script found!
+ScriptName 'aura_warr_war_machine' exists in database, but no core script found!
+ScriptName 'at_serpentrix_toxic_puddle' exists in database, but no core script found!
+ScriptName 'at_sha_crashing_storm' exists in database, but no core script found!
+ScriptName 'aura_void_phased' exists in database, but no core script found!
+ScriptName 'boss_elegon' exists in database, but no core script found!
+ScriptName 'npc_agitated_earth_spirit' exists in database, but no core script found!
+ScriptName 'boss_king_haldor' exists in database, but no core script found!
+ScriptName 'boss_saprish' exists in database, but no core script found!
+ScriptName 'at_wrath_of_azshara_mystic_tornado' exists in database, but no core script found!
+ScriptName 'aura_dru_charm_woodland_creature' exists in database, but no core script found!
+ScriptName 'aura_dru_restoration_affinity' exists in database, but no core script found!
+ScriptName 'aura_eoa_lightning_strikes' exists in database, but no core script found!
+ScriptName 'aura_eoa_violent_winds_force_move' exists in database, but no core script found!
+ScriptName 'aura_king_deepbeard_gain_energy' exists in database, but no core script found!
+ScriptName 'aura_lady_hatecoil_curse_of_the_witch' exists in database, but no core script found!
+ScriptName 'aura_warl_haunt' exists in database, but no core script found!
+ScriptName 'aura_makrana_hardshell_armorshell' exists in database, but no core script found!
+ScriptName 'aura_nythendra_infested_breath' exists in database, but no core script found!
+ScriptName 'aura_nythendra_infested_mind' exists in database, but no core script found!
+ScriptName 'aura_nythendra_rot' exists in database, but no core script found!
+ScriptName 'aura_nythendra_volatile_rot' exists in database, but no core script found!
+ScriptName 'boss_god_king_kovald' exists in database, but no core script found!
+ScriptName 'aura_sha_earthquake' exists in database, but no core script found!
+ScriptName 'aura_sha_stormlash' exists in database, but no core script found!
+ScriptName 'aura_sha_stormlash_buff' exists in database, but no core script found!
+ScriptName 'go_inversion' exists in database, but no core script found!
+ScriptName 'spell_magnetized_jan' exists in database, but no core script found!
+ScriptName 'npc_wrath_of_azshara_naga' exists in database, but no core script found!
+ScriptName 'boss_lura' exists in database, but no core script found!
+ScriptName 'npc_lorewalker_cho' exists in database, but no core script found!
+ScriptName 'spell_mogu_epicenter' exists in database, but no core script found!
+ScriptName 'npc_monk_sef_spirit' exists in database, but no core script found!
+ScriptName 'go_allied_race_infos_voidelf' exists in database, but no core script found!
+ScriptName 'npc_solsten_ghost' exists in database, but no core script found!
+ScriptName 'boss_king_bjorn' exists in database, but no core script found!
+ScriptName 'npc_halls_of_valor' exists in database, but no core script found!
+ScriptName 'boss_feng' exists in database, but no core script found!
+ScriptName 'npc_dm_vanessa_vancleef' exists in database, but no core script found!
+ScriptName 'boss_fenryr' exists in database, but no core script found!
+ScriptName 'spell_animated_storm_water_spout' exists in database, but no core script found!
+ScriptName 'boss_garajal' exists in database, but no core script found!
+ScriptName 'npc_imp_mother_laglath' exists in database, but no core script found!
+ScriptName 'npc_shadowfang_prisoner' exists in database, but no core script found!
+ScriptName 'spell_ravenous_leap_jump' exists in database, but no core script found!
+ScriptName 'mob_spirit_totem_intro' exists in database, but no core script found!
+ScriptName 'spell_devastating_arc' exists in database, but no core script found!
+ScriptName 'mob_siphon_shield' exists in database, but no core script found!
+ScriptName 'spell_pri_penance_damage' exists in database, but no core script found!
+ScriptName 'boss_king_tor' exists in database, but no core script found!
+ScriptName 'boss_hyrja' exists in database, but no core script found!
+ScriptName 'spell_monk_elusive_brawler_mastery' exists in database, but no core script found!
+ScriptName 'spell_arti_pri_call_of_the_void' exists in database, but no core script found!
+ScriptName 'spell_gen_mobile_bank' exists in database, but no core script found!
+ScriptName 'mob_mogu_archer' exists in database, but no core script found!
+ScriptName 'boss_lady_hatecoil' exists in database, but no core script found!
+ScriptName 'mob_energy_charge' exists in database, but no core script found!
+ScriptName 'mob_meng' exists in database, but no core script found!
+ScriptName 'mob_zandalari_skullcharger' exists in database, but no core script found!
+ScriptName 'mob_cursed_mogu_sculpture' exists in database, but no core script found!
+ScriptName 'go_celestial_control_console' exists in database, but no core script found!
+ScriptName 'spell_magnetized_qin' exists in database, but no core script found!
+ScriptName 'boss_sharthos' exists in database, but no core script found!
+ScriptName 'boss_spirit_kings_controler' exists in database, but no core script found!
+ScriptName 'boss_viceroy_nezhar' exists in database, but no core script found!
+ScriptName 'mob_infinite_energy' exists in database, but no core script found!
+ScriptName 'go_allied_race_infos_draenei' exists in database, but no core script found!
+ScriptName 'go_allied_race_infos_nightborne' exists in database, but no core script found!
+ScriptName 'go_cancel' exists in database, but no core script found!
+ScriptName 'zone_razorfen_kraul' exists in database, but no core script found!
+ScriptName 'npc_summer_scorchling_26401' exists in database, but no core script found!
+ScriptName 'spell_core_checker' exists in database, but no core script found!
+ScriptName 'mob_soul_fragment' exists in database, but no core script found!
+ScriptName 'mob_mogu_engine_keeper' exists in database, but no core script found!
+ScriptName 'spell_dru_swipe' exists in database, but no core script found!
+ScriptName 'mob_garajal_ghost' exists in database, but no core script found!
+ScriptName 'npc_class_hall_warrior_aerylia' exists in database, but no core script found!
+ScriptName 'npc_nythendra_corrupted_vermin' exists in database, but no core script found!
+ScriptName 'mob_cosmic_spark' exists in database, but no core script found!
+ScriptName 'npc_apprentice_mirveda' exists in database, but no core script found!
+ScriptName 'spell_dru_gore' exists in database, but no core script found!
+ScriptName 'spell_mogu_wildfire_infusion' exists in database, but no core script found!
+ScriptName 'spell_spawn_flash_2_periodic' exists in database, but no core script found!
+ScriptName 'spell_wrath_of_azshara_arcane_bomb_target' exists in database, but no core script found!
+ScriptName 'spell_skrog_tidestomper_massive_quake' exists in database, but no core script found!
+ScriptName 'npc_solsten' exists in database, but no core script found!
+ScriptName 'mob_ancient_mogu_machine' exists in database, but no core script found!
+ScriptName 'mob_celestial_protector' exists in database, but no core script found!
+ScriptName 'mob_empyreal_focus' exists in database, but no core script found!
+ScriptName 'mob_enormous_stone_quilen' exists in database, but no core script found!
+ScriptName 'npc_aegis_of_aggramar' exists in database, but no core script found!
+ScriptName 'spell_expel_light' exists in database, but no core script found!
+ScriptName 'spell_burn_constriction_totem' exists in database, but no core script found!
+ScriptName 'mob_kingsguard' exists in database, but no core script found!
+ScriptName 'mob_lightning_fist' exists in database, but no core script found!
+ScriptName 'npc_dm_alliance_mage' exists in database, but no core script found!
+ScriptName 'mob_zian' exists in database, but no core script found!
+ScriptName 'mob_mogu_warden' exists in database, but no core script found!
+ScriptName 'mob_mounted_mogu' exists in database, but no core script found!
+ScriptName 'spell_dru_brutal_slash' exists in database, but no core script found!
+ScriptName 'mob_qiang' exists in database, but no core script found!
+ScriptName 'npc_spear_of_light' exists in database, but no core script found!
+ScriptName 'mob_shadowy_minion' exists in database, but no core script found!
+ScriptName 'spell_wildfire_infusion_stacks' exists in database, but no core script found!
+ScriptName 'mob_sorcerer_mogu' exists in database, but no core script found!
+ScriptName 'mob_spirit_totem' exists in database, but no core script found!
+ScriptName 'mob_stone_quilen' exists in database, but no core script found!
+ScriptName 'mob_subetai' exists in database, but no core script found!
+ScriptName 'mob_wild_spark' exists in database, but no core script found!
+ScriptName 'mob_woe_titan_spark' exists in database, but no core script found!
+ScriptName 'npc_infused_crystal' exists in database, but no core script found!
+ScriptName 'spell_warr_execute' exists in database, but no core script found!
+ScriptName 'npc_anchorite_truuen' exists in database, but no core script found!
+ScriptName 'npc_dm_edwin_vancleef' exists in database, but no core script found!
+ScriptName 'npc_arcane_hydra_spawn' exists in database, but no core script found!
+ScriptName 'npc_arti_priest_void_tendril' exists in database, but no core script found!
+ScriptName 'npc_stolen_ram' exists in database, but no core script found!
+ScriptName 'spell_pal_consecration' exists in database, but no core script found!
+ScriptName 'npc_coalesced_void' exists in database, but no core script found!
+ScriptName 'npc_flame_of_woe' exists in database, but no core script found!
+ScriptName 'npc_dm_alliance_hunter' exists in database, but no core script found!
+ScriptName 'npc_dm_alliance_priest' exists in database, but no core script found!
+ScriptName 'npc_dm_alliance_rogue' exists in database, but no core script found!
+ScriptName 'npc_dm_alliance_warrior' exists in database, but no core script found!
+ScriptName 'spell_dk_obliterate' exists in database, but no core script found!
+ScriptName 'npc_feral_spirit' exists in database, but no core script found!
+ScriptName 'npc_festival_scorchling_26520' exists in database, but no core script found!
+ScriptName 'npc_field_of_eternal_hunt' exists in database, but no core script found!
+ScriptName 'spell_spatial_rift_despawn' exists in database, but no core script found!
+ScriptName 'npc_flying_machine' exists in database, but no core script found!
+ScriptName 'npc_frostmane_builder' exists in database, but no core script found!
+ScriptName 'spell_serpentrix_submerge' exists in database, but no core script found!
+ScriptName 'npc_hogger' exists in database, but no core script found!
+ScriptName 'npc_hogger_minion' exists in database, but no core script found!
+ScriptName 'npc_king_deepbeard_quake' exists in database, but no core script found!
+ScriptName 'npc_lady_hatecoil_monsoon' exists in database, but no core script found!
+ScriptName 'npc_moira_thaurissan' exists in database, but no core script found!
+ScriptName 'spell_titan_gas2' exists in database, but no core script found!
+ScriptName 'spell_mage_flamestrike' exists in database, but no core script found!
+ScriptName 'spell_ghost_essence' exists in database, but no core script found!
+ScriptName 'npc_olmyr_ghost' exists in database, but no core script found!
+ScriptName 'npc_olmyr_the_enlightened' exists in database, but no core script found!
+ScriptName 'spell_draw_flame' exists in database, but no core script found!
+ScriptName 'npc_sergeant_flinthammer' exists in database, but no core script found!
+ScriptName 'npc_shadowguard_subjugator' exists in database, but no core script found!
+ScriptName 'spell_destabilizing_energies' exists in database, but no core script found!
+ScriptName 'npc_son_of_flame_firelands' exists in database, but no core script found!
+ScriptName 'spell_dk_remorseless_winter_damage' exists in database, but no core script found!
+ScriptName 'spell_lady_hatecoil_crackling_thunder' exists in database, but no core script found!
+ScriptName 'npc_vision_of_the_past' exists in database, but no core script found!
+ScriptName 'spell_warl_seed_of_corruption_damage' exists in database, but no core script found!
+ScriptName 'spell_grasping_energy_tendrils' exists in database, but no core script found!
+ScriptName 'spell_arc_visual' exists in database, but no core script found!
+ScriptName 'spell_arcane_pulse' exists in database, but no core script found!
+ScriptName 'spell_arti_dru_ashamane_frenzy' exists in database, but no core script found!
+ScriptName 'spell_arti_pal_tyr_deliverance' exists in database, but no core script found!
+ScriptName 'spell_warr_ravager_damage' exists in database, but no core script found!
+ScriptName 'spell_energized' exists in database, but no core script found!
+ScriptName 'spell_pal_crusade' exists in database, but no core script found!
+ScriptName 'spell_class_hall_warrior_jump_exit' exists in database, but no core script found!
+ScriptName 'spell_class_hall_warrior_jump_teleport' exists in database, but no core script found!
+ScriptName 'spell_energizing_smash' exists in database, but no core script found!
+ScriptName 'spell_emote_stolen_ram' exists in database, but no core script found!
+ScriptName 'spell_cosmetic_lightning' exists in database, but no core script found!
+ScriptName 'spell_kovald_infernal_flames' exists in database, but no core script found!
+ScriptName 'spell_draw_power' exists in database, but no core script found!
+ScriptName 'spell_energizing_visual' exists in database, but no core script found!
+ScriptName 'spell_final_destination' exists in database, but no core script found!
+ScriptName 'spell_spawn_flash_1_periodic' exists in database, but no core script found!
+ScriptName 'spell_hatecoil_arcanist_aqua_spout' exists in database, but no core script found!
+ScriptName 'spell_lady_hatecoil_curse_of_the_witch' exists in database, but no core script found!
+ScriptName 'spell_impeding_thrust' exists in database, but no core script found!
+ScriptName 'spell_kovald_ragnarok' exists in database, but no core script found!
+ScriptName 'spell_lady_hatecoil_beckon_storm' exists in database, but no core script found!
+ScriptName 'spell_lady_hatecoil_focused_lightning' exists in database, but no core script found!
+ScriptName 'spell_lady_hatecoil_monsoon_target' exists in database, but no core script found!
+ScriptName 'spell_light_judgement' exists in database, but no core script found!
+ScriptName 'spell_mage_blazing_soul' exists in database, but no core script found!
+ScriptName 'spell_mage_cinderstorm' exists in database, but no core script found!
+ScriptName 'spell_mage_firestarter' exists in database, but no core script found!
+ScriptName 'spell_mage_mastery_ignite' exists in database, but no core script found!
+ScriptName 'spell_mage_ray_of_frost_buff' exists in database, but no core script found!
+ScriptName 'spell_mage_ring_of_frost_stun' exists in database, but no core script found!
+ScriptName 'spell_missile_barrage' exists in database, but no core script found!
+ScriptName 'spell_mogu_arcane_resonance' exists in database, but no core script found!
+ScriptName 'spell_mogu_arcane_velocity' exists in database, but no core script found!
+ScriptName 'spell_mogu_inversion' exists in database, but no core script found!
+ScriptName 'spell_mogu_petrification' exists in database, but no core script found!
+ScriptName 'spell_mogu_wildfire_spark' exists in database, but no core script found!
+ScriptName 'spell_monk_whirling_dragon_punch' exists in database, but no core script found!
+ScriptName 'spell_null_palm' exists in database, but no core script found!
+ScriptName 'spell_odyn_spear_of_light' exists in database, but no core script found!
+ScriptName 'spell_pal_aura_of_sacrifice_ally' exists in database, but no core script found!
+ScriptName 'spell_pal_fervent_martyr' exists in database, but no core script found!
+ScriptName 'temporaire_npc_icycle_dm' exists in database, but no core script found!
+ScriptName 'spell_radiating_energies' exists in database, but no core script found!
+ScriptName 'spell_ravenous_leap' exists in database, but no core script found!
+ScriptName 'spell_sanctify' exists in database, but no core script found!
+ScriptName 'spell_sha_rainfall' exists in database, but no core script found!
+ScriptName 'spell_serpentix_rampage_aura' exists in database, but no core script found!
+ScriptName 'spell_serpentrix_poison_spit' exists in database, but no core script found!
+ScriptName 'spell_sha_earth_elemental' exists in database, but no core script found!
+ScriptName 'spell_sha_earth_shock' exists in database, but no core script found!
+ScriptName 'spell_sha_enhancement_lightning_bolt' exists in database, but no core script found!
+ScriptName 'spell_sha_fire_elemental' exists in database, but no core script found!
+ScriptName 'spell_sha_healing_rain' exists in database, but no core script found!
+ScriptName 'spell_sha_healing_surge' exists in database, but no core script found!
+ScriptName 'spell_signal_flare' exists in database, but no core script found!
+ScriptName 'spell_soul_back' exists in database, but no core script found!
+ScriptName 'spell_spirit_bolt' exists in database, but no core script found!
+ScriptName 'spell_terracota_spawn' exists in database, but no core script found!
+ScriptName 'spell_titan_gas' exists in database, but no core script found!
+ScriptName 'spell_total_annihilation' exists in database, but no core script found!
+ScriptName 'spell_touch_of_titans' exists in database, but no core script found!
+ScriptName 'spell_unstable_energy' exists in database, but no core script found!
+ScriptName 'spell_voodoo_doll' exists in database, but no core script found!
+ScriptName 'spell_warl_incinerate' exists in database, but no core script found!
+ScriptName 'spell_warr_commanding_shout' exists in database, but no core script found!
+ScriptName 'spell_wildfire_spark' exists in database, but no core script found!
+ScriptName 'spell_wrath_of_azshara_mystic_tornado' exists in database, but no core script found!
+ScriptName 'zone_western_plaguelands' exists in database, but no core script found!
+>> Loaded 5110 C++ scripts in 645 ms
+Validating spell scripts...
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `100` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `100` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `139` did not pass Validate() function of script `spell_pri_renew` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 103958 does not exist.
+Spell `172` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `527` Effect `Index: EFFECT_0 Name: 3` of script `spell_pri_dispel_magic` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `527` did not pass Validate() function of script `spell_pri_dispel_magic` - script will be not added to the spell
+Spell `974` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_sha_earth_shield` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `974` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_sha_earth_shield` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `1066` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `1066` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 159669 does not exist.
+Spell `1454` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `1454` Effect `Index: EFFECT_0 Name: 30` of script `spell_warl_life_tap` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `1454` Effect `Index: EFFECT_2 AuraName: 301` of script `spell_warl_life_tap` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 159669 does not exist.
+Spell `1454` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `1454` Effect `Index: EFFECT_0 Name: 30` of script `spell_warl_life_tap` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `1454` Effect `Index: EFFECT_2 AuraName: 301` of script `spell_warl_life_tap` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `1464` Effect `Index: EFFECT_0 Name: 3` of script `spell_warr_slam` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `1464` did not pass Validate() function of script `spell_warr_slam` - script will be not added to the spell
+Spell `2565` Effect `Index: EFFECT_1 AuraName: 79` of script `spell_warr_shield_block` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 157605 does not exist.
+Spell `2823` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 157605 does not exist.
+Spell `2823` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 157605 does not exist.
+Spell `2823` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `3411` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `5246` Effect `Index: EFFECT_1 Target: 15` of script `spell_warr_intimidating_shout` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `5394` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_sha_healing_stream_totem` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `7448` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_fire` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `12975` Effect `Index: EFFECT_0 Name: 3` of script `spell_warr_last_stand` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `12975` did not pass Validate() function of script `spell_warr_last_stand` - script will be not added to the spell
+Spell `14062` Effect `Index: EFFECT_0 AuraName: 36` of script `spell_rog_nightstalker` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `14062` Effect `Index: EFFECT_0 AuraName: 36` of script `spell_rog_nightstalker` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `15286` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_pri_vampiric_embrace` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `15290` Effect `Index: EFFECT_0 Target: 20` of script `spell_pri_vampiric_embrace_target` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 52127 does not exist.
+Spell `16196` did not pass Validate() function of script `spell_sha_resurgence` - script will be not added to the spell
+Spell `17767` Effect `Index: EFFECT_0 AuraName: 250` of script `spell_warl_shadow_bulwark` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `18765` did not pass Validate() function of script `spell_warr_sweeping_strikes` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 56249 does not exist.
+Spell `19505` did not pass Validate() function of script `spell_warl_devour_magic` - script will be not added to the spell
+Spell `21562` Effect `Index: EFFECT_0 Name: 3` of script `spell_pri_power_word_fortitude` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `26375` Effect `Index: EFFECT_1 Name: 3` of script `spell_lunar_festival_invitation` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `27243` Effect `Index: EFFECT_0 Name: 2` of script `spell_warl_seed_of_corruption` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `27243` Effect `Index: EFFECT_0 Target: 16` of script `spell_warl_seed_of_corruption` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `28764` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_gen_adaptive_warding` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `30884` did not pass Validate() function of script `spell_sha_nature_guardian` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 86315 does not exist.
+Spell `31790` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `32216` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_warr_victorious` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `33395` Effect `Index: EFFECT_0 AuraName: 26` of script `spell_mage_pet_freeze` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `33943` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `33943` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `34477` Effect `Index: EFFECT_1 AuraName: 4` of script `spell_hun_misdirection` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `34477` Effect `Index: EFFECT_1 AuraName: 4` of script `spell_hun_misdirection` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `34861` did not pass Validate() function of script `spell_pri_circle_of_healing` - script will be not added to the spell
+Spell `34914` Effect `Index: EFFECT_2 AuraName: 4` of script `spell_pri_vampiric_touch` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `34914` did not pass Validate() function of script `spell_pri_vampiric_touch` - script will be not added to the spell
+Spell `35244` Effect `Index: EFFECT_0 Name: 3` of script `spell_choking_vines` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `35429` did not pass Validate() function of script `spell_warr_sweeping_strikes` - script will be not added to the spell
+Spell `36300` Effect `Index: EFFECT_0 Name: 179` of script `spell_growth` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `36554` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 39240 does not exist.
+_SpellScript::ValidateSpellInfo: Spell 39241 does not exist.
+Spell `39238` did not pass Validate() function of script `spell_q10929_fumping` - script will be not added to the spell
+Spell `40120` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `40120` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `41341` Effect `Index: EFFECT_0 AuraName: 69` of script `spell_illidari_council_balance_of_power` did not match dbc effect data - handler bound to hook `OnEffectAbsorb` of AuraScript won't be executed
+Spell `41621` Effect `Index: EFFECT_0 Name: 77` of script `spell_hol_wolpertinger_net` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `45204` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `46282` Effect `Index: EFFECT_0 Name: 3` of script `spell_black_hole` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `47788` Effect `Index: EFFECT_1 AuraName: 69` of script `spell_pri_guardian_spirit` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `47788` Effect `Index: EFFECT_1 AuraName: 69` of script `spell_pri_guardian_spirit` did not match dbc effect data - handler bound to hook `OnEffectAbsorb` of AuraScript won't be executed
+Spell `48263` did not pass Validate() function of script `spell_dk_presence` - script will be not added to the spell
+Spell `48265` did not pass Validate() function of script `spell_dk_presence` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 49331 does not exist.
+Spell `49107` did not pass Validate() function of script `spell_vehicle_warhead_fuse` - script will be not added to the spell
+Spell `49184` Effect `Index: EFFECT_1 Name: 3` of script `spell_dk_icy_touch` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `49184` Effect `Index: EFFECT_1 Name: 3` of script `spell_dk_icy_touch` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `49376` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `49889` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `49889` Effect `Index: EFFECT_2 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `50218` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `50218` Effect `Index: EFFECT_2 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `50785` Effect `Index: EFFECT_0 Target: 15` of script `spell_varos_energize_core_area_enemy` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `51271` Effect `Index: EFFECT_2 AuraName: 4` of script `spell_dk_pillar_of_frost` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `51271` Effect `Index: EFFECT_2 AuraName: 4` of script `spell_dk_pillar_of_frost` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `51719` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `51719` Effect `Index: EFFECT_2 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `52042` did not pass Validate() function of script `spell_sha_healing_stream_totem_heal` - script will be not added to the spell
+Spell `52042` did not pass Validate() function of script `spell_sha_healing_stream_totem_heal` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 60937 does not exist.
+Spell `52408` did not pass Validate() function of script `spell_gen_seaforium_blast` - script will be not added to the spell
+Spell `52437` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_warr_sudden_death` did not match dbc effect data - handler bound to hook `AfterEffectApply` of AuraScript won't be executed
+Spell `53478` Effect `Index: EFFECT_0 Name: 3` of script `spell_hun_pet_last_stand` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `53478` did not pass Validate() function of script `spell_hun_pet_last_stand` - script will be not added to the spell
+Spell `54069` Effect `Index: EFFECT_0 Target: 7` of script `spell_varos_energize_core_area_entry` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `56251` Effect `Index: EFFECT_0 Target: 7` of script `spell_varos_energize_core_area_entry` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `59372` Effect `Index: EFFECT_0 Target: 15` of script `spell_varos_energize_core_area_enemy` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `59915` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_item_discerning_eye_beast_dummy` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `61407` Effect `Index: EFFECT_0 Target: 7` of script `spell_varos_energize_core_area_entry` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `62136` Effect `Index: EFFECT_0 Target: 7` of script `spell_varos_energize_core_area_entry` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65037 does not exist.
+Spell `65032` did not pass Validate() function of script `spell_xt002_321_boombot_aura` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 56249 does not exist.
+Spell `67518` did not pass Validate() function of script `spell_warl_devour_magic` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 71290 does not exist.
+Spell `71289` did not pass Validate() function of script `spell_deathwhisper_dominated_mind` - script will be not added to the spell
+Spell `72887` Effect `Index: EFFECT_0 Target: 7` of script `spell_boot_damage` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `73002` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_font_life` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `73325` Effect `Index: EFFECT_0 Name: 3` of script `spell_pri_leap_of_faith` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `73325` did not pass Validate() function of script `spell_pri_leap_of_faith` - script will be not added to the spell
+Spell `74136` Effect `Index: EFFECT_0 Target: 15` of script `spell_isiset_supernova` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `74136` Effect `Index: EFFECT_1 Target: 15` of script `spell_isiset_supernova` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `74634` did not pass Validate() function of script `spell_ground_siege` - script will be not added to the spell
+Spell `74946` Effect `Index: EFFECT_0 Target: 7` of script `spell_throngus_arrow_barage` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `75664` Effect `Index: EFFECT_0 Target: 15` of script `spell_shadow_gale_damage` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `75664` Effect `Index: EFFECT_1 Target: 15` of script `spell_shadow_gale_damage` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `76047` Effect `Index: EFFECT_0 Target: 15` of script `spell_ulthok_dark_fissure` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 0 does not exist.
+Spell `77606` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `78098` Effect `Index: EFFECT_0 Name: 2` of script `spell_atramedes_sonic_breath` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `78098` Effect `Index: EFFECT_1 Name: 30` of script `spell_atramedes_sonic_breath` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `79683` Effect `Index: EFFECT_0 Name: 32` of script `spell_entanglement_missile` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `79683` Effect `Index: EFFECT_0 Name: 32` of script `spell_entanglement_missile` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `79830` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `81782` Effect `Index: EFFECT_0 AuraName: 23` of script `aura_barrier` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `82828` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `85422` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_nurture_aura` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `85422` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_nurture_aura` did not match dbc effect data - handler bound to hook `DoEffectCalcPeriodic` of AuraScript won't be executed
+Spell `85429` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_nurture_aura` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `85429` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_nurture_aura` did not match dbc effect data - handler bound to hook `DoEffectCalcPeriodic` of AuraScript won't be executed
+Spell `85483` Effect `Index: EFFECT_0 Target: 110` of script `spell_wind_blast` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `85717` Effect `Index: EFFECT_0 Name: 3` of script `spell_firebloom_target` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `85948` Effect `Index: Invalid Value Name: 3` of script `spell_dk_festering_strike` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `86121` Effect `Index: EFFECT_0 Name: 2` of script `spell_warl_soul_swap` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 94229 does not exist.
+Spell `86121` did not pass Validate() function of script `spell_warl_soul_swap` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 92794 does not exist.
+Spell `86213` did not pass Validate() function of script `spell_warl_soul_swap_exhale` - script will be not added to the spell
+Spell `86715` Effect `Index: EFFECT_0 Target: 15` of script `spell_asaad_supremacy_dummy` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `86930` Effect `Index: EFFECT_0 Target: 7` of script `spell_asaad_supremacy_entry` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `88264` Effect `Index: EFFECT_0 Name: 3` of script `spell_throw_bomb` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `88287` Effect `Index: EFFECT_0 Name: 3` of script `spell_magmaw_massive_crash` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `89284` Effect `Index: EFFECT_0 Target: 7` of script `spell_sinestra_twilight_essence` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `89284` Effect `Index: EFFECT_1 Target: 15` of script `spell_sinestra_twilight_essence` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `92053` Effect `Index: EFFECT_0 Name: 2` of script `spell_shadow_conductor` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `92851` Effect `Index: EFFECT_0 Target: 15` of script `spell_sinestra_twilight_slicer` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `93520` Effect `Index: EFFECT_0 Name: 28` of script `spell_pistol_barrage_trigger` did not match dbc effect data - handler bound to hook `OnEffectLaunch` of SpellScript won't be executed
+Spell `93564` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_pistol_barrage` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `93572` Effect `Index: EFFECT_1 AuraName: 3` of script `spell_toxic_coagulant_green` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `93573` Effect `Index: EFFECT_0 Target: 15` of script `spell_toxic_coagulant_red` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `93573` Effect `Index: EFFECT_1 Target: 15` of script `spell_toxic_coagulant_red` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `93573` Effect `Index: EFFECT_2 Target: 15` of script `spell_toxic_coagulant_red` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `97463` Effect `Index: EFFECT_0 Name: 3` of script `spell_warr_rallying_cry` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `97734` Effect `Index: EFFECT_0 Name: 77` of script `spell_alysrazor_molten_feather_script` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `100640` Effect `Index: EFFECT_0 Target: 15` of script `spell_alysrazor_harsh_winds` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `100745` Effect `Index: EFFECT_0 Target: 15` of script `spell_alysrazor_firestorm` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `100780` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `100780` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `100784` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `100784` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 86315 does not exist.
+Spell `100950` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `101285` Effect `Index: EFFECT_0 AuraName: 78` of script `spell_hol_beliers` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `101588` Effect `Index: EFFECT_0 Name: 3` of script `spell_flarecore` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `101588` Effect `Index: EFFECT_0 Name: 3` of script `spell_flarecore` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `102416` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `102417` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `103678` Effect `Index: EFFECT_1 Name: 138` of script `spell_wave_of_virtue` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `103678` Effect `Index: EFFECT_0 Target: 16` of script `spell_wave_of_virtue` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `104516` Effect `Index: EFFECT_0 Target: 15` of script `spell_seaping_light` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `104516` Effect `Index: EFFECT_1 Target: 15` of script `spell_seaping_light` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `105367` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_hagara_the_stormbinder_lightning_conduit` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `105367` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_hagara_the_stormbinder_lightning_conduit` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `106935` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `107536` Effect `Index: EFFECT_0 Target: 15` of script `spell_perotharn_punishing_flames_dmg` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `108210` Effect `Index: EFFECT_0 AuraName: 12` of script `spell_rog_nerve_strike` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `108210` Effect `Index: EFFECT_0 AuraName: 79` of script `spell_rog_nerve_strike_aura` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `108210` Effect `Index: EFFECT_0 AuraName: 12` of script `spell_rog_nerve_strike` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `108210` Effect `Index: EFFECT_0 AuraName: 79` of script `spell_rog_nerve_strike_aura` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `108281` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_sha_ancestral_guidance` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `108299` Effect `Index: EFFECT_0 AuraName: 36` of script `spell_dru_killer_instinct` did not match dbc effect data - handler bound to hook `AfterEffectApply` of AuraScript won't be executed
+Spell `108299` Effect `Index: EFFECT_0 AuraName: 36` of script `spell_dru_killer_instinct` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `108374` Effect `Index: EFFECT_0 Target: 7` of script `spell_rising_fire_totem` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `113043` Effect `Index: EFFECT_0 AuraName: 8` of script `spell_dru_omen_of_clarity` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `115080` Effect `Index: EFFECT_0 AuraName: 3` of script `spell_monk_touch_of_death` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `116694` Effect `Index: EFFECT_0 Name: 3` of script `spell_monk_surging_mist` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `116694` did not pass Validate() function of script `spell_monk_surging_mist` - script will be not added to the spell
+Spell `117014` did not pass Validate() function of script `spell_sha_elemental_blast` - script will be not added to the spell
+Spell `119338` Effect `Index: EFFECT_0 Target: 104` of script `spell_dart` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 62388 does not exist.
+Spell `119996` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 62388 does not exist.
+Spell `119996` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 137586 does not exist.
+Spell `121471` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `122169` Effect `Index: EFFECT_0 AuraName: 236` of script `spell_ook_ook_barrel_ride` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `122280` Effect `Index: EFFECT_0 AuraName: 42` of script `spell_monk_healing_elixirs_aura` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `122506` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `122852` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_inhale` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `124273` Effect `Index: EFFECT_0 AuraName: 3` of script `spell_monk_stagger_visual` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `124274` Effect `Index: EFFECT_0 AuraName: 3` of script `spell_monk_stagger_visual` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `124275` Effect `Index: EFFECT_0 AuraName: 3` of script `spell_monk_stagger_visual` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `126240` Effect `Index: EFFECT_2 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `126892` Effect `Index: EFFECT_0 Name: 77` of script `spell_monk_zen_pilgrimage` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `126895` Effect `Index: EFFECT_0 Name: 252` of script `spell_monk_zen_pilgrimage` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `128956` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_hol_belier_base` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `130255` Effect `Index: EFFECT_0 Name: 77` of script `spell_hol_launch_beer` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `130736` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_dk_soul_reaper` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `130736` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_dk_soul_reaper` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 114168 does not exist.
+Spell `131632` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `136757` Effect `Index: EFFECT_1 Name: 77` of script `spell_gen_clone` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `137639` Effect `Index: EFFECT_0 AuraName: 79` of script `spell_monk_storm_earth_and_fire` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `137639` Effect `Index: EFFECT_0 AuraName: 79` of script `spell_monk_storm_earth_and_fire` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 114168 does not exist.
+Spell `143395` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 103958 does not exist.
+Spell `145158` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 103958 does not exist.
+Spell `146739` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 103958 does not exist.
+Spell `146739` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Functions GetSpellScript() and GetAuraScript() of script `spell_rough_smash` do not return objects - script skipped
+Spell `152277` Effect `Index: EFFECT_0 AuraName: 47` of script `spell_warr_ravager` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `153097` Effect `Index: EFFECT_0 Target: 18` of script `spell_halion_summon_exit_portals` did not match dbc effect data - handler bound to hook `OnDestinationTargetSelect` of SpellScript won't be executed
+Spell `153097` Effect `Index: EFFECT_1 Target: 18` of script `spell_halion_summon_exit_portals` did not match dbc effect data - handler bound to hook `OnDestinationTargetSelect` of SpellScript won't be executed
+Spell `153276` Effect `Index: EFFECT_0 Name: 77` of script `spell_exhume_the_crypts` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `153276` Effect `Index: EFFECT_0 Target: 7` of script `spell_exhume_the_crypts` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `154010` Effect `Index: EFFECT_0 Name: 77` of script `spell_shadowmoon_burial_grounds_drowned` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 114736 does not exist.
+Spell `159607` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `163946` Effect `Index: EFFECT_1 Name: 77` of script `spell_hol_belier_renes` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `163946` Effect `Index: EFFECT_0 AuraName: 226` of script `spell_hol_belier_renes` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `164253` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_hol_belier_all_speeds` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `164253` Effect `Index: EFFECT_1 AuraName: 226` of script `spell_hol_belier_all_speeds` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `164834` Effect `Index: EFFECT_0 Name: 3` of script `spell_barrage_of_leaves` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `165213` Effect `Index: EFFECT_0 Name: 3` of script `spell_enraged_growth` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `165961` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `165961` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dru_travel_form` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `166562` Effect `Index: EFFECT_0 Name: 3` of script `spell_firebloom_target` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `167966` Effect `Index: EFFECT_0 Name: 3` of script `spell_bramble_patch` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `167967` Effect `Index: EFFECT_0 Name: 3` of script `spell_bramble_patch` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `168375` Effect `Index: EFFECT_0 AuraName: 4` of script `aura_grasping_vine` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `168375` Effect `Index: EFFECT_0 AuraName: 4` of script `aura_grasping_vine` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+Spell `168378` Effect `Index: EFFECT_0 Name: 3` of script `spell_grasping_vine_jump` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `169120` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_font_life` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won't be executed
+Spell `169125` Effect `Index: EFFECT_0 Name: 3` of script `spell_genesis` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `169233` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_inhale` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `169267` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_toxic_blood` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `169390` Effect `Index: EFFECT_0 Name: 32` of script `spell_genesis_missile` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `169421` Effect `Index: EFFECT_0 Name: 3` of script `spell_frostridge_claiming` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `169563` Effect `Index: EFFECT_0 Name: 179` of script `spell_growth` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `170016` Effect `Index: EFFECT_0 AuraName: 226` of script `aura_glowbulb_pollen` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `170404` Effect `Index: EFFECT_0 Name: 77` of script `spell_vine_pull` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `170759` Effect `Index: EFFECT_0 AuraName: 23` of script `spell_toxic_blood` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `171975` of script `spell_warl_grimoire_of_synergy` does not have apply aura effect - handler bound to hook `DoCheckProc` of AuraScript won't be executed
+Spell `172578` Effect `Index: EFFECT_0 Name: 3` of script `spell_bounding_whirl` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `172610` Effect `Index: EFFECT_0 Name: 3` of script `spell_black_hole` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `177694` Effect `Index: EFFECT_0 Name: 140` of script `spell_water_burst_targeting` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `177694` Effect `Index: EFFECT_0 Target: 7` of script `spell_water_burst_targeting` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Name: 3` of script `spell_agitated_water` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Target: 7` of script `spell_agitated_water` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Name: 140` of script `spell_agitated_water_trig` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Name: 3` of script `spell_agitated_water` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Target: 7` of script `spell_agitated_water` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `177731` Effect `Index: EFFECT_0 Name: 140` of script `spell_agitated_water_trig` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `178338` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `182346` Effect `Index: EFFECT_0 Name: 77` of script `spell_item_piccolo_of_the_flaming_fire` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `193549` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 90259 does not exist.
+Spell `194834` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `195457` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `195457` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `197908` Effect `Index: EFFECT_0 AuraName: 21` of script `spell_monk_mana_tea` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `198304` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `198304` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `198337` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `198337` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `198379` Effect `Index: EFFECT_0 AuraName: 395` of script `spell_archdruid_glaidalis_primal_rage_charge` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
+Spell `198758` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
+Spell `200025` Effect `Index: EFFECT_0 Target: 31` of script `spell_pal_beacon_of_virtue` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `200025` Effect `Index: EFFECT_0 Target: 31` of script `spell_pal_beacon_of_virtue` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+Spell `200108` Effect `Index: EFFECT_0 AuraName: 26` of script `spell_hun_rangers_net` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 81208 does not exist.
+Spell `200153` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `201428` Effect `Index: EFFECT_1 Name: 58` of script `spell_dh_annihilation_damage` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `201453` Effect `Index: EFFECT_1 Name: 39` of script `spell_dh_metamorphosis_immunity` did not match dbc effect data - handler bound to hook `OnEffectLaunch` of SpellScript won't be executed
+Spell `201453` Effect `Index: EFFECT_1 Name: 39` of script `spell_dh_metamorphosis_immunity` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `203555` Effect `Index: EFFECT_0 AuraName: 4` of script `spell_dh_demon_blades` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `203650` Effect `Index: EFFECT_0 AuraName: 24` of script `spell_dh_vengeful_retreat_fury_refiller` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `204022` Effect `Index: EFFECT_0 AuraName: 69` of script `spell_dh_fiery_brand_absorb` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `204022` Effect `Index: EFFECT_0 AuraName: 69` of script `spell_dh_fiery_brand_absorb` did not match dbc effect data - handler bound to hook `OnEffectAbsorb` of AuraScript won't be executed
+Spell `204243` Effect `Index: EFFECT_1 AuraName: 3` of script `spell_dt_trash_tormenting_eye` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `204243` Effect `Index: EFFECT_2 AuraName: 3` of script `spell_dt_trash_tormenting_eye` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won't be executed
+Spell `204488` Effect `Index: EFFECT_1 Name: 3` of script `spell_warr_focused_rage_prot` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `205029` Effect `Index: EFFECT_0 Name: 3` of script `spell_mage_fire_on` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 115070 does not exist.
+Spell `205523` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `211052` of script `spell_dh_fel_barrage_aura` does not have apply aura effect - handler bound to hook `DoCheckProc` of AuraScript won't be executed
+Spell `211052` Effect `Index: EFFECT_0 AuraName: 42` of script `spell_dh_fel_barrage_aura` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won't be executed
+Spell `211714` Effect `Index: EFFECT_1 Target: 0` of script `spell_arti_warl_thalkiels_consumption` did not match dbc effect data - handler bound to hook `OnObjectAreaTargetSelect` of SpellScript won't be executed
+_SpellScript::ValidateSpellInfo: Spell 159669 does not exist.
+Spell `212284` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 74434 does not exist.
+Spell `213398` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 117050 does not exist.
+Spell `213831` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+_SpellScript::ValidateSpellInfo: Spell 90259 does not exist.
+Spell `219779` did not pass Validate() function of script `spell_gen_trigger_exclude_caster_aura_spell` - script will be not added to the spell
+Spell `220377` Effect `Index: EFFECT_0 Name: 2` of script `spell_flotsam_getsam_damage` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `221335` Effect `Index: EFFECT_0 AuraName: 23` of script `aura_archmage_barrier` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won't be executed
+Spell `222703` Effect `Index: EFFECT_0 Name: 2` of script `spell_dh_fel_barrage_damage` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `227518` Effect `Index: EFFECT_1 Name: 58` of script `spell_dh_annihilation_damage` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `228920` Effect `Index: EFFECT_0 AuraName: 47` of script `spell_warr_ravager` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won't be executed
+Spell `234746` Effect `Index: EFFECT_0 Name: 2` of script `spell_pri_void_bolt` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+Spell `237680` Effect `Index: EFFECT_1 Name: 2` of script `spell_dk_howling_blast_aoe` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
+Spell `247454` Effect `Index: EFFECT_0 Name: 3` of script `spell_dh_spirit_bomb` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
+>> Validated 2733 scripts in 242 ms
+Loading SmartAI scripts...
+>> Loaded SmartAIMgr Helpers in 147 ms
+SmartAIMgr: EntryOrGuid -1100562 using event(0) has invalid action type (206), skipped.
+SmartAIMgr: EntryOrGuid -1100190 using event(0) has invalid action type (206), skipped.
+SmartAIMgr: Entry 1750 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 55567 (SpellId: 130805 effect: ☺)
+SmartAIMgr: Entry 3679 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 44051 (SpellId: 82453 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (4979) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (4979) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (4979) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (9376) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (10433) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15541) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15541) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15541) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15542) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15542) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15542) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (15542) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (17014) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (17014) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (17014) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (17014) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 23777 SourceType 0 Event 0 Action 12 creature summon: There is a summon spell for creature entry 23688 (SpellId: 42404, effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (23789) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 23921 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 23921 (SpellId: 42632 effect:
+SmartAIMgr: Entry 23922 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 23922 (SpellId: 42633 effect:
+SmartAIMgr: Entry 23923 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 23923 (SpellId: 42634 effect:
+SmartAIMgr: Entry 23924 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 23924 (SpellId: 42635 effect:
+SmartAIMgr: Entry 24087 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24087 (SpellId: 43067 effect:
+SmartAIMgr: Entry 24092 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24092 (SpellId: 43077 effect:
+SmartAIMgr: Entry 24093 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24093 (SpellId: 43086 effect:
+SmartAIMgr: Entry 24094 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24094 (SpellId: 43087 effect:
+SmartAIMgr: Entry 24098 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24098 (SpellId: 43058 effect:
+SmartAIMgr: Entry 24100 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24100 (SpellId: 43061 effect:
+SmartAIMgr: Entry 24102 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24102 (SpellId: 43065 effect:
+SmartAIMgr: Entry 24290 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24290 (SpellId: 43419 effect:
+SmartAIMgr: Entry 24345 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24345 (SpellId: 43564 effect:
+SmartAIMgr: Entry 24381 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24381 (SpellId: 43693 effect:
+SmartAIMgr: Entry 24514 SourceType 0 Event 2 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24515 (SpellId: 43984 effect:
+SmartAIMgr: Entry 25318 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 25318 (SpellId: 45456 effect:
+SmartAIMgr: Entry 25654 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 25654 (SpellId: 45837 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (29104) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (29104) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 30127 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 30126 (SpellId: 55960 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (37989) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (37989) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (37989) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (37989) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (37989) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (38910) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 39730 SourceType 0 Event 1 Action 11 Effect: SPELL_EFFECT_KILL_CREDIT: (SpellId: 74287 targetA: 1 - targetB: 0) has invalid target for this Action
+SmartAIMgr: Entry 39730 SourceType 0 Event 2 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 39727 (SpellId: 74287 effect: ☺)
+SmartAIMgr: Entry 39736 SourceType 0 Event 1 Action 11 Effect: SPELL_EFFECT_KILL_CREDIT: (SpellId: 74290 targetA: 1 - targetB: 0) has invalid target for this Action
+SmartAIMgr: Entry 39736 SourceType 0 Event 2 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 39739 (SpellId: 74290 effect: ☺)
+SmartAIMgr: Entry 39737 SourceType 0 Event 1 Action 11 Effect: SPELL_EFFECT_KILL_CREDIT: (SpellId: 74288 targetA: 1 - targetB: 0) has invalid target for this Action
+SmartAIMgr: Entry 39737 SourceType 0 Event 2 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 39741 (SpellId: 74288 effect: ☺)
+SmartAIMgr: Entry 39738 SourceType 0 Event 1 Action 11 Effect: SPELL_EFFECT_KILL_CREDIT: (SpellId: 74292 targetA: 1 - targetB: 0) has invalid target for this Action
+SmartAIMgr: Entry 39738 SourceType 0 Event 2 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 39740 (SpellId: 74292 effect: ☻)
+SmartAIMgr: Entry 39933 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 40056 (SpellId: 74722 effect:
+SmartAIMgr: Entry 40056 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 40056 (SpellId: 74722 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (42175) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (46268) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (46268) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 53738 SourceType 0 Event 1 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 53738 (SpellId: 100508 effect: ☻)
+SmartAIMgr: Entry 54763 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54872 (SpellId: 102469 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (54787) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (54787) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 54894 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 56398 (SpellId: 105938 effect: ☻)
+SmartAIMgr: Entry 54914 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 55057 (SpellId: 102819 effect:
+SmartAIMgr: Entry 54990 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54996 (SpellId: 102725 effect:
+SmartAIMgr: Entry 55009 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54999 (SpellId: 102732 effect:
+SmartAIMgr: Entry 55333 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 67152 (SpellId: 132159 effect:
+SmartAIMgr: Entry 56737 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 56737 (SpellId: 113893 effect: ☺)
+SmartAIMgr: Entry 61492 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54929 (SpellId: 102537 effect: ☺)
+SmartAIMgr: Entry 64475 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 59415 (SpellId: 114063 effect: ☺)
+SmartAIMgr: Entry 64491 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 64491 (SpellId: 125947 effect:
+SmartAIMgr: Entry 64493 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 64493 (SpellId: 125956 effect:
+SmartAIMgr: Entry 64494 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 64494 (SpellId: 125968 effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (65478) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 65910 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 65910 (SpellId: 130858 effect: ☻)
+SmartAIMgr: Entry 66292 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 66292 (SpellId: 131057 effect: ☻)
+SmartAIMgr: Entry 66564 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54929 (SpellId: 102537 effect: ☺)
+SmartAIMgr: Entry 66567 SourceType 0 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 54929 (SpellId: 102537 effect: ☺)
+SmartAIMgr: Entry 77034 SourceType 0 Event 1 Action 11 uses non-existent Spell entry 5000, skipped.
+SmartAIMgr: Entry 84462 SourceType 0 Event 1 Action 11 uses non-existent Spell entry 5000, skipped.
+SmartAIMgr: Entry 106754 SourceType 0 Event 0 Action 12 creature summon: There is a summon spell for creature entry 98776 (SpellId: 211761, effect:
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (121539) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (121539) is not using SmartAI, skipped loading.
+SmartAIMgr::LoadSmartAIFromDB: Creature entry (123560) is not using SmartAI, skipped loading.
+SmartAIMgr: Entry 131345SourceType 0 Event 4 Action 1 using non-existent Text id 3, skipped.
+SmartAIMgr: Entry 132382SourceType 0 Event 2 Action 1 using non-existent Text id 1, skipped.
+SmartAIMgr: EntryOrGuid 133362 using event(0) has invalid action type (206), skipped.
+SmartAIMgr: EntryOrGuid 133407 using event(0) has invalid action type (206), skipped.
+SmartAIMgr: Entry 230700 SourceType 9 Event 1 Action 12 creature summon: There is a summon spell for creature entry 38895 (SpellId: 73084, effect:
+SmartAIMgr: Entry 2408800 SourceType 9 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24124 (SpellId: 43094 effect:
+SmartAIMgr: Entry 2408900 SourceType 9 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24124 (SpellId: 43094 effect:
+SmartAIMgr: Entry 2409000 SourceType 9 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24124 (SpellId: 43094 effect:
+SmartAIMgr: Entry 18666000 SourceType 9 Event 0 Action 12 creature summon: There is a summon spell for creature entry 24285 (SpellId: 43387, effect:
+>> Loaded 15387 SmartAI scripts in 740 ms
+Loading Calendar data...
+>> Loaded 0 calendar events
+>> Loaded 0 calendar invites
+Loading Quest task...
+Loading Zones script names...
+>> Loaded 9 zone scriptnames in 1 ms
+Initialize game time and timers
+Mail timer set to: 1080, mail return is called every 1440 minutes
+Starting Map System
+Starting Game Event system...
+Initialize AuctionHouseBot...
+Initializing Opcodes...
+Opcode SMSG_ACCOUNT_HEIRLOOM_UPDATE does not have a value
+Opcode SMSG_ITEM_UPGRADE_RESULT does not have a value
+Starting Arena Season...
+ArenaSeason (15) must be an existing Arena Season.
+Starting Battleground System
+>> Loaded 17 battlegrounds in 2 ms
+Starting Outdoor PvP System
+>> Loaded 5 outdoor PvP definitions in 39 ms
+Starting Battlefield System
+Loading Transports...
+>> Spawned 26 continent transports in 452 ms
+Loading Warden Checks...
+Loading Warden Action Overrides...
+Deleting expired bans...
+Calculate next daily quest reset time...
+Calculate next weekly quest reset time...
+Calculate next monthly quest reset time...
+Calculate random battleground reset time...
+Calculate guild limitation(s) reset time...
+Calculate next currency reset time...
+Loading character info store
+No character name data loaded, empty query
+Loading race and class expansion requirements...
+>> Loaded 33 race expansion requirements in 1 ms.
+>> Loaded 12 class expansion requirements in 4 ms.
+Loading character templates...
+>> Loaded 0 character template classes. DB table `character_template_class` is empty.
+>> Loaded 0 character templates. DB table `character_template` is empty.
+Loading realm names...
+>> Loaded 1 realm names in 1 ms.
+Loading battle pets info...
+>> Loaded 2884 battle pet breeds.
+>> Loaded 998 battle pet qualities.
+Loading scenarios
+>> Loaded 197 instance scenario entries in 26 ms
+Loading scenario poi data
+>> Loaded 0 scenario POI definitions. DB table `scenario_poi` is empty.
+Loading active world quests...
+World Quest: There is no active world quests.
+>> SupplementOneRandomPlayerBotPerAccount START
+>> Building bot data: Vespera - Race: 7, Class: 1, Gender: 1
+>> Creating startup bot: Vespera, Race: 7, Class: 1, Account: 2
+>> Created one random startup bot for account 2
+>> Building bot data: Vespera - Race: 6, Class: 3, Gender: 1
+>> Creating startup bot: Vespera, Race: 6, Class: 3, Account: 3
+>> Created one random startup bot for account 3
+>> Building bot data: Solenne - Race: 26, Class: 1, Gender: 1
+>> Creating startup bot: Solenne, Race: 26, Class: 1, Account: 4
+>> Created one random startup bot for account 4
+>> Building bot data: Elowen - Race: 7, Class: 1, Gender: 0
+>> Creating startup bot: Elowen, Race: 7, Class: 1, Account: 5
+>> Created one random startup bot for account 5
+>> Building bot data: Aldric - Race: 10, Class: 2, Gender: 1
+>> Creating startup bot: Aldric, Race: 10, Class: 2, Account: 6
+>> Created one random startup bot for account 6
+>> Building bot data: Oswin - Race: 6, Class: 7, Gender: 1
+>> Creating startup bot: Oswin, Race: 6, Class: 7, Account: 7
+>> Created one random startup bot for account 7
+>> Building bot data: Pellinor - Race: 7, Class: 9, Gender: 1
+>> Creating startup bot: Pellinor, Race: 7, Class: 9, Account: 8
+>> Created one random startup bot for account 8
+>> Building bot data: Riven - Race: 3, Class: 3, Gender: 1
+>> Creating startup bot: Riven, Race: 3, Class: 3, Account: 9
+>> Created one random startup bot for account 9
+>> Building bot data: Wyland - Race: 3, Class: 2, Gender: 1
+>> Creating startup bot: Wyland, Race: 3, Class: 2, Account: 10
+>> Created one random startup bot for account 10
+>> Building bot data: Vaelis - Race: 6, Class: 11, Gender: 1
+>> Creating startup bot: Vaelis, Race: 6, Class: 11, Account: 11
+>> Created one random startup bot for account 11
+>> Building bot data: Halden - Race: 8, Class: 4, Gender: 0
+>> Creating startup bot: Halden, Race: 8, Class: 4, Account: 12
+>> Created one random startup bot for account 12
+>> Building bot data: Hallowyn - Race: 8, Class: 4, Gender: 1
+>> Creating startup bot: Hallowyn, Race: 8, Class: 4, Account: 13
+>> Created one random startup bot for account 13
+>> Building bot data: Halden - Race: 11, Class: 7, Gender: 0
+>> Creating startup bot: Halden, Race: 11, Class: 7, Account: 14
+>> Created one random startup bot for account 14
+>> Building bot data: Faelith - Race: 10, Class: 4, Gender: 1
+>> Creating startup bot: Faelith, Race: 10, Class: 4, Account: 15
+>> Created one random startup bot for account 15
+>> Building bot data: Lirien - Race: 8, Class: 7, Gender: 1
+>> Creating startup bot: Lirien, Race: 8, Class: 7, Account: 16
+>> Created one random startup bot for account 16
+>> Building bot data: Ashara - Race: 6, Class: 7, Gender: 1
+>> Creating startup bot: Ashara, Race: 6, Class: 7, Account: 17
+>> Created one random startup bot for account 17
+>> Building bot data: Lirien - Race: 5, Class: 8, Gender: 1
+>> Creating startup bot: Lirien, Race: 5, Class: 8, Account: 18
+>> Created one random startup bot for account 18
+>> Building bot data: Rhydian - Race: 11, Class: 2, Gender: 0
+>> Creating startup bot: Rhydian, Race: 11, Class: 2, Account: 19
+>> Created one random startup bot for account 19
+>> Building bot data: Rivenna - Race: 2, Class: 4, Gender: 0
+>> Creating startup bot: Rivenna, Race: 2, Class: 4, Account: 20
+>> Created one random startup bot for account 20
+>> Building bot data: Quillan - Race: 4, Class: 11, Gender: 1
+>> Creating startup bot: Quillan, Race: 4, Class: 11, Account: 21
+Could not load VMAP name:Kalimdor, id:1, x:12, y:30 (vmap rep.: x:12, y:30)
+>> Created one random startup bot for account 21
+>> Building bot data: Tamsin - Race: 7, Class: 4, Gender: 1
+>> Creating startup bot: Tamsin, Race: 7, Class: 4, Account: 22
+>> Created one random startup bot for account 22
+>> Building bot data: Corvyn - Race: 4, Class: 11, Gender: 0
+>> Creating startup bot: Corvyn, Race: 4, Class: 11, Account: 23
+>> Created one random startup bot for account 23
+>> Building bot data: Iridessa - Race: 11, Class: 5, Gender: 1
+>> Creating startup bot: Iridessa, Race: 11, Class: 5, Account: 24
+>> Created one random startup bot for account 24
+>> Building bot data: Pyralis - Race: 10, Class: 3, Gender: 1
+>> Creating startup bot: Pyralis, Race: 10, Class: 3, Account: 25
+>> Created one random startup bot for account 25
+>> Building bot data: Nythera - Race: 7, Class: 9, Gender: 0
+>> Creating startup bot: Nythera, Race: 7, Class: 9, Account: 26
+>> Created one random startup bot for account 26
+>> Building bot data: Maevyn - Race: 11, Class: 2, Gender: 1
+>> Creating startup bot: Maevyn, Race: 11, Class: 2, Account: 27
+>> Created one random startup bot for account 27
+>> Building bot data: Morvane - Race: 1, Class: 1, Gender: 1
+>> Creating startup bot: Morvane, Race: 1, Class: 1, Account: 28
+>> Created one random startup bot for account 28
+>> Building bot data: Drystan - Race: 10, Class: 9, Gender: 1
+>> Creating startup bot: Drystan, Race: 10, Class: 9, Account: 29
+>> Created one random startup bot for account 29
+>> Building bot data: Fenric - Race: 1, Class: 9, Gender: 0
+>> Creating startup bot: Fenric, Race: 1, Class: 9, Account: 30
+>> Created one random startup bot for account 30
+>> Building bot data: Delwyn - Race: 2, Class: 7, Gender: 1
+>> Creating startup bot: Delwyn, Race: 2, Class: 7, Account: 31
+>> Created one random startup bot for account 31
+>> Building bot data: Farryn - Race: 2, Class: 9, Gender: 1
+>> Creating startup bot: Farryn, Race: 2, Class: 9, Account: 32
+>> Created one random startup bot for account 32
+>> Building bot data: Osric - Race: 1, Class: 4, Gender: 1
+>> Creating startup bot: Osric, Race: 1, Class: 4, Account: 33
+>> Created one random startup bot for account 33
+>> Building bot data: Thorne - Race: 26, Class: 1, Gender: 1
+>> Creating startup bot: Thorne, Race: 26, Class: 1, Account: 34
+>> Created one random startup bot for account 34
+>> Building bot data: Vaelor - Race: 2, Class: 7, Gender: 0
+>> Creating startup bot: Vaelor, Race: 2, Class: 7, Account: 35
+>> Created one random startup bot for account 35
+>> Building bot data: Jorund - Race: 10, Class: 8, Gender: 1
+>> Creating startup bot: Jorund, Race: 10, Class: 8, Account: 36
+>> Created one random startup bot for account 36
+>> Building bot data: Jorath - Race: 8, Class: 7, Gender: 0
+>> Creating startup bot: Jorath, Race: 8, Class: 7, Account: 37
+>> Created one random startup bot for account 37
+>> Building bot data: Elandra - Race: 10, Class: 5, Gender: 1
+>> Creating startup bot: Elandra, Race: 10, Class: 5, Account: 38
+>> Created one random startup bot for account 38
+>> Building bot data: Zaroth - Race: 4, Class: 3, Gender: 0
+>> Creating startup bot: Zaroth, Race: 4, Class: 3, Account: 39
+>> Created one random startup bot for account 39
+>> Building bot data: Gareth - Race: 4, Class: 4, Gender: 1
+>> Creating startup bot: Gareth, Race: 4, Class: 4, Account: 40
+>> Created one random startup bot for account 40
+>> Building bot data: Zevaris - Race: 5, Class: 9, Gender: 1
+>> Creating startup bot: Zevaris, Race: 5, Class: 9, Account: 41
+>> Created one random startup bot for account 41
+>> Building bot data: Lyriana - Race: 5, Class: 4, Gender: 1
+>> Creating startup bot: Lyriana, Race: 5, Class: 4, Account: 42
+>> Created one random startup bot for account 42
+>> Building bot data: Pellin - Race: 10, Class: 5, Gender: 1
+>> Creating startup bot: Pellin, Race: 10, Class: 5, Account: 43
+>> Created one random startup bot for account 43
+>> Building bot data: Kaelis - Race: 1, Class: 5, Gender: 1
+>> Creating startup bot: Kaelis, Race: 1, Class: 5, Account: 44
+>> Created one random startup bot for account 44
+>> Building bot data: Jassara - Race: 11, Class: 3, Gender: 0
+>> Creating startup bot: Jassara, Race: 11, Class: 3, Account: 45
+>> Created one random startup bot for account 45
+>> Building bot data: Galren - Race: 8, Class: 1, Gender: 0
+>> Creating startup bot: Galren, Race: 8, Class: 1, Account: 46
+>> Created one random startup bot for account 46
+>> Building bot data: Brynneth - Race: 8, Class: 8, Gender: 1
+>> Creating startup bot: Brynneth, Race: 8, Class: 8, Account: 47
+>> Created one random startup bot for account 47
+>> Building bot data: Quinlan - Race: 1, Class: 9, Gender: 0
+>> Creating startup bot: Quinlan, Race: 1, Class: 9, Account: 48
+>> Created one random startup bot for account 48
+>> Building bot data: Xandrel - Race: 8, Class: 4, Gender: 1
+>> Creating startup bot: Xandrel, Race: 8, Class: 4, Account: 49
+>> Created one random startup bot for account 49
+>> Building bot data: Ysara - Race: 11, Class: 8, Gender: 0
+>> Creating startup bot: Ysara, Race: 11, Class: 8, Account: 50
+>> Created one random startup bot for account 50
+>> Building bot data: Ysolde - Race: 1, Class: 2, Gender: 0
+>> Creating startup bot: Ysolde, Race: 1, Class: 2, Account: 51
+>> Created one random startup bot for account 51
+>> SupplementOneRandomPlayerBotPerAccount END - created 50 bots
+Logging in playerbots...
+World initialized in 4 minutes 5 seconds
+TC>LEGIONFORGE rev.1 2026-10-12 21:23:31 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon) ready...
+[1146] Table 'world.scenario_npc_landing' doesn't exist
+Your database structure is not up to date. Please make sure you've executed all queries in the sql/updates folders.
+Для продолжения нажмите любую клавишу . . . 
+
+
+
+Когда запускаю клиент ввожу пароль, вижу что сервер запущен, пытаюсь зайти и не даёт зайти, выкидывает!!!!!!!!!
